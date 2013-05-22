@@ -1,0 +1,3139 @@
+---
+- name: 'planetouched '
+  type:
+  - Outsider
+  subtype:
+  - Native
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 1d8+1
+  desc: "\n\tPlanetouched is a general word to describe someone who can trace his
+    or her bloodline back to an outsider, usually a fiend or celestial.\n"
+- name: 'aboleth '
+  type:
+  - Aberration
+  subtype:
+  - Aquatic
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 8d8+40
+  desc: "\n\tThe aboleth is a revolting fishlike amphibian found primarily in subterranean
+    lakes and rivers. An aboleth has a pink belly. Four pulsating blueblack orifices
+    line the bottom of its body and secrete gray slime that smells like rancid grease.
+    It uses its tail for propulsion in the water and drags itself along with its tentacles
+    on land. An aboleth weighs about 6,500 pounds.\n\n\n\tAboleths speak their own
+    language, as well as Undercommon and Aquan.\n\n\n"
+- name: 'achaierai '
+  type:
+  - Outsider
+  subtype:
+  - Evil
+  - Extraplanar
+  - Lawful
+  size:
+  - Large
+  alignment:
+  - Evil
+  - Lawful
+  attack: 1d20+6
+  hit_pts: 6d8+12
+  desc: "\n\tAchaierais are massive, 15-foot-tall flightless birds that inhabit lawful
+    planes of battle and are only occasionally encountered elsewhere.\n\n\n\tAchaierais
+    speak Infernal. They weigh about 750 pounds.\n\n\n"
+- name: elemental
+  type:
+  - Elemental
+  subtype:
+  - Air
+  - Extraplanar
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8
+  desc: "\n\tElementals are incarnations of the elements that compose existence.\n\n\n"
+- name: 'mephit '
+  type:
+  - Outsider
+  subtype:
+  - Air
+  - Extraplanar
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 3d8
+  desc: "\n\tMephits are minor creatures from the elemental planes.\n\n\n\tAll mephits
+    appear as small, winged creatures with more or less humanoid features. While they
+    are often described as impish, their elemental origins are apparent at first glance.\n\n\n"
+- name: 'allip '
+  type:
+  - Undead
+  subtype:
+  - Incorporeal
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 4d12
+  desc: "\n\tAn allip is the spectral remains of someone driven to suicide by a madness
+    that afflicted it in life. It craves only revenge and unrelentingly pursues those
+    who tormented it in life and pushed it over the brink.\n\n\n\tAn allip cannot
+    speak intelligibly.\n\n\n"
+- name: sphinx
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+12
+  hit_pts: 12d10+48
+  desc: "\n\tSphinxes are enigmatic creatures with great, feathery wings and leonine
+    bodies. All sphinxes are territorial, but the more intelligent ones can differentiate
+    between deliberate intrusion and temporary or inadvertent trespass.\n\n\n\tA typical
+    sphinx is about 10 feet long and weighs about 800 pounds.\n\n\n\tSphinxes speak
+    Sphinx, Common, and Draconic.\n\n\n"
+- name: 'angel '
+  type:
+  - Outsider
+  subtype:
+  - Angel
+  - Extraplanar
+  - Good
+  size:
+  - Medium
+  alignment:
+  - Good
+  attack: 1d20+12
+  hit_pts: 12d8+48
+  desc: "\n\tAngels are a race of celestials, beings who live on the good-aligned
+    Outer Planes.\n\n\n\tAngels can be of any good alignment. Regardless of their
+    alignment, angels never lie, cheat, or steal. They are impeccably honorable in
+    all their dealings and often prove the most trustworthy and diplomatic of all
+    the celestials.\n\n\n\tAll angels are blessed with comely looks, though their
+    actual appearances vary widely.\n\n\n\tAngels speak Celestial, Infernal, and Draconic,
+    though they can speak with almost any creature because of their tongues ability.\n\n\n"
+- name: 'animated object '
+  type:
+  - Construct
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+0
+  hit_pts: 1d10+10
+  desc: "\n\tAnimated objects come in all sizes, shapes, and colors. They owe their
+    existence as creatures to spells such as animate objects or similar supernatural
+    abilities.\n\n\n"
+- name: 'ankheg '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 3d10+12
+  desc: "\n\tThe ankheg is a burrowing monster with a taste for fresh meat. An ankheg
+    has six legs, and some specimens are yellow rather than brown. It is about 10
+    feet long and weighs about 800 pounds.\n\n\n\tAn ankheg burrows with legs and
+    mandibles. A burrowing ankheg usually does not make a usable tunnel, but can construct
+    a tunnel; it burrows at half speed when it does so. It often digs a winding tunnel
+    up to 40 feet below the surface in the rich soil of forests or farmlands. The
+    tunnel is 5 feet tall and wide, and from 60 to 150 feet long ([1d10 + 5] &times;
+    10).\n\n\n"
+- name: hag
+  type:
+  - Monstrous Humanoid
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+7
+  hit_pts: 7d8+14
+  desc: "\n\tAlthough different hags are unique in appearance and mannerism, they
+    have many aspects in common. All take the form of crones whose bent shapes belie
+    their fierce power and swiftness.\n\n\n\tHags speak Giant and Common.\n\n\n"
+- name: ape
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 4d8+11
+  desc: "\n\tThese powerful omnivores resemble gorillas but are far more aggressive;
+    they kill and eat anything they can catch. An adult male ape is 5&frac12; to 6
+    feet tall and weighs 300 to 400 pounds.\n\n\n"
+- name: 'elf '
+  type:
+  - Humanoid
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 1d8
+  desc: "\n\tElves average 5 feet tall and typically weigh just over 100 pounds. They
+    live on fruits and grains, though they occasionally hunt for fresh meat. Elves
+    prefer colorful clothes, usually with a green-and-gray cloak that blends well
+    with the colors of the forest.\n\n\n\tElves speak Elven, and most also know Common
+    and Sylvan.\n\n\n\tMost elves encountered outside their homes are warriors; the
+    information presented here is for one of 1st level.\n\n\n"
+- name: 'aranea '
+  type:
+  - Magical Beast
+  subtype:
+  - Shapechanger
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 3d10+6
+  desc: "\n\tAn aranea is an intelligent, shapechanging spider with sorcerous powers.
+    In its natural form, an aranea resembles a big spider, with a humpbacked body
+    a little bigger than a human torso. It has fanged mandibles like a normal spider.
+    Two small arms, each about 2 feet long, lie below the mandibles. Each arm has
+    a hand with four many-jointed fingers and a double-jointed thumb.\n\n\n\tAn aranea
+    weighs about 150 pounds. The hump on its back houses its brain.\n\n\n\tAraneas
+    speak Common and Sylvan.\n\n\n"
+- name: 'archon '
+  type:
+  - Outsider
+  subtype:
+  - Archon
+  - Extraplanar
+  - Good
+  - Lawful
+  size:
+  - Small
+  alignment:
+  - Good
+  - Lawful
+  attack: 1d20+1
+  hit_pts: 1d8
+  desc: "\n\tArchons are celestials from a lawful good-aligned plane.\n\n\n\tArchons
+    speak Celestial, Infernal, and Draconic, but can speak with almost any creature
+    because of their tongues ability.\n\n\n"
+- name: 'arrowhawk '
+  type:
+  - Outsider
+  subtype:
+  - Air
+  - Extraplanar
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 3d8+3
+  desc: "\n\tAn arrowhawk is a predator and scavenger from the Elemental Plane of
+    Air. By twisting its body and varying the cadence of its wingbeats, an arrowhawk
+    can fly at top speed in any direction. A juvenile arrowhawk (1 to 10 years old)
+    is about 5 feet long from beak to tail, with the body accounting for about one-third
+    of that length. Its wingspan is about 7 feet, and it weighs about 20 pounds. An
+    adult (11 to 40 years old) is about 10 feet long from beak to tail, with a wingspan
+    of about 15 feet and a weight of about 100 pounds. An elder arrowhawk (41 to 75
+    years old) is about 20 feet long with a wingspan of 30 feet and a weight of about
+    800 pounds.\n\n\n\tArrowhawks speak Auran, but they are not usually talkative
+    creatures.\n\n\n"
+- name: 'assassin vine '
+  type:
+  - Plant
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 4d8+12
+  desc: "\n\tThe assassin vine is a semi-mobile plant that collects its own grisly
+    fertilizer by grabbing and crushing animals and depositing the carcasses near
+    its roots.\n\n\n\tA mature plant consists of a main vine, about 20 feet long.
+    Smaller vines up to 5 feet long branch off from the main vine about every 6 inches.
+    These small vines bear clusters of leaves, and in late summer they produce bunches
+    of small fruits that resemble wild grapes. The fruit is tough and has a hearty
+    but bitter flavor. Assassin vine berries make a heady wine.\n\n\n\tAn assassin
+    vine can move about, albeit very slowly, but usually stays put unless it needs
+    to seek prey in a new vicinity.\n\n\n\tA subterranean version of the assassin
+    vine grows near hot springs, volcanic vents, and other sources of thermal energy.
+    These plants have thin, wiry stems and gray leaves shot through with silver, brown,
+    and white veins so that they resemble mineral deposits. An assassin vine growing
+    underground usually generates enough offal to support a thriving colony of mushrooms
+    and other fungi, which spring up around the plant and help conceal it.\n\n\n"
+- name: 'athach '
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+10
+  hit_pts: 14d8+70
+  desc: "\n\tThe athach is a hulking, misshapen biped. An adult stands some 18 feet
+    tall and weighs about 4,500 pounds. Athachs speak a crude dialect of Giant.\n\n\n"
+- name: 'avoral '
+  type:
+  - Outsider
+  subtype:
+  - Extraplanar
+  - Good
+  size:
+  - Medium
+  alignment:
+  - Good
+  attack: 1d20+7
+  hit_pts: 7d8+35
+  desc: "\n\tAn avoral’s bones are strong but hollow, so even the largest specimens
+    weigh no more than 120 pounds. An avoral is about 7 feet tall. Each of an avoral’s
+    wings has a small hand at the midpoint. When the wings are folded, these appendages
+    are about where human hands would be and can do nearly anything hands can do.\n\n\n\tAn
+    avoral’s visual acuity is virtually unmatched: It can see detail on objects up
+    to 10 miles away and is said to be able to discern the color of a creature’s eyes
+    at 200 paces.\n\n\n\tAvorals speak Celestial, Infernal, and Draconic, but can
+    speak with almost any creature, thanks to their tongues ability.\n\n\n"
+- name: 'azer '
+  type:
+  - Outsider
+  subtype:
+  - Extraplanar
+  - Fire
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 2d8+2
+  desc: "\n\tAzers are dwarflike beings native to the Elemental Plane of Fire. They
+    wear kilts of brass, bronze, or copper, and speak Ignan and Common.\n\n\n"
+- name: demon
+  type:
+  - Outsider
+  subtype:
+  - Chaotic
+  - Extraplanar
+  - Evil
+  size:
+  - Medium
+  alignment:
+  - Chaotic
+  - Evil
+  attack: 1d20+7
+  hit_pts: 7d8+35
+  desc: "\n\tDemons are a race of creatures native to chaotic evil-aligned planes.
+    They are ferocity personified and will attack any creature just for the sheer
+    fun of it—even other demons.\n"
+- name: baboon
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+0
+  hit_pts: 1d8+1
+  desc: "\n\tBaboons are powerful and aggressive primates adapted to life on the ground.
+    They prefer open spaces but climb trees to find safe places to rest overnight.
+    A typical baboon is the size of a big dog.\n\n\n\tMales can be 2 to 4 feet long
+    and weigh as much as 90 pounds.\n\n\n"
+- name: badger
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+0
+  hit_pts: 1d8+2
+  desc: "\n\tThe badger is a furry animal with a squat, powerful body. Its strong
+    forelimbs are armed with long claws for digging. An adult badger is 2 to 3 feet
+    long and weighs 25 to 35 pounds.\n\n\n"
+- name: devil
+  type:
+  - Outsider
+  subtype:
+  - Evil
+  - Extraplanar
+  - Lawful
+  size:
+  - Medium
+  alignment:
+  - Evil
+  - Lawful
+  attack: 1d20+12
+  hit_pts: 12d8+72
+  desc: "\n\tDevils are fiends from lawful evil-aligned planes.\n"
+- name: 'barghest '
+  type:
+  - Outsider
+  subtype:
+  - Evil
+  - Extraplanar
+  - Lawful
+  - Shapechanger
+  size:
+  - Medium
+  alignment:
+  - Evil
+  - Lawful
+  attack: 1d20+6
+  hit_pts: 6d8+6
+  desc: "\n\tA barghest is a lupine fiend that can take the shape of a wolf or a goblin.
+    In its natural form, it resembles a goblin-wolf hybrid with terrible jaws and
+    sharp claws. As whelps, barghests are nearly indistinguishable from wolves, except
+    for their size and claws. As they grow larger and stronger, their skin darkens
+    to bluish-red and eventually becomes blue altogether.\n\n\n\tA full-grown barghest
+    is about 6 feet long and weighs 180 pounds. A barghest’s eyes glow orange when
+    the creature becomes excited.\n\n\n\tBarghests speak Goblin, Worg, and Infernal.\n\n\n"
+- name: 'basilisk '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 6d10+12
+  desc: "\n\tA basilisk is a reptilian monster that petrifies living creatures with
+    a mere gaze. A basilisk usually has a dull brown body with a yellowish underbelly.
+    Some specimens sport a short, curved horn atop the nose. An adult basilisk’s body
+    grows to about 6 feet long, not including its tail, which can reach an additional
+    length of 5 to 7 feet. The creature weighs about 300 pounds.\n\n\n"
+- name: swarm
+  type:
+  - Animal
+  subtype:
+  - Swarm
+  size:
+  - Diminutive
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8
+  desc: "\n\tSwarms are dense masses of Fine, Diminutive, or Tiny creatures that would
+    not be particularly dangerous in small groups, but can be terrible foes when gathered
+    in sufficient numbers. For game purposes a swarm is defined as a single creature
+    with a space of 10 feet—gigantic hordes are actually composed of dozens of swarms
+    in close proximity. A swarm has a single pool of Hit Dice and hit points, a single
+    initiative modifier, a single speed, and a single Armor Class. It makes saving
+    throws as a single creature.\n\n\n\tMany different creatures can mass as swarms;
+    bat swarms, centipede swarms, hellwasp swarms, locust swarms, rat swarms, and
+    spider swarms are described here. The swarm’s type varies with the nature of the
+    component creature (most are animals or vermin), but all swarms have the swarm
+    subtype.\n\n\n\tA swarm of Tiny creatures consists of 300 nonflying creatures
+    or 1,000 flying creatures. A swarm of Diminutive creatures consists of 1,500 nonflying
+    creatures or 5,000 flying creatures. A swarm of Fine creatures consists of 10,000
+    creatures, whether they are flying or not. Swarms of nonflying creatures include
+    many more creatures than could normally fit in a 10-foot square based on their
+    normal space, because creatures in a swarm are packed tightly together and generally
+    crawl over each other and their prey when moving or attacking. Larger swarms are
+    represented by multiples of single swarms. A large swarm is completely shapeable,
+    though it usually remains contiguous.\n\n\n"
+- name: bat
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Diminutive
+  alignment: []
+  attack: 1d20+0
+  hit_pts: '1'
+  desc: "\n\tBats are nocturnal flying mammals. The statistics presented here describe
+    small, insectivorous bats.\n\n\n"
+- name: bear, black
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+6
+  desc: "\n\tThe black bear is a forest-dwelling omnivore that usually is not dangerous
+    unless an interloper threatens its cubs or food supply.\n\n\n\tBlack bears can
+    be pure black, blond, or cinnamon in color and are rarely more than 5 feet long.\n\n\n"
+- name: bear, brown
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 6d8+24
+  desc: "\n\tThese massive carnivores weigh more than 1,800 pounds and stand nearly
+    9 feet tall when they rear up on their hind legs. They are bad-tempered and territorial.
+    The brown bear’s statistics can be used for almost any big bear, including the
+    grizzly.\n\n\n"
+- name: bear, polar
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 8d8+32
+  desc: "\n\tThese long, lean carnivores are slightly taller than brown bears.\n\n\n"
+- name: 'behir '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+9
+  hit_pts: 9d10+45
+  desc: "\n\tThe behir is a serpentine monster that can slither like a snake or use
+    its dozen legs to move with considerable speed. A behir is about 40 feet long
+    and weighs about 4,000 pounds. It can fold its limbs close to its long, narrow
+    body and slither in snake fashion if it desires. The coloration of behirs ranges
+    from ultramarine to deep blue with bands of gray-brown. The belly is pale blue.
+    The two large horns curving back over the head look dangerous but are actually
+    used for preening the creature’s scales, not for fighting.\n\n\n\tBehirs speak
+    Common.\n\n\n"
+- name: 'belker '
+  type:
+  - Elemental
+  subtype:
+  - Air
+  - Extraplanar
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+5
+  hit_pts: 7d8+7
+  desc: "\n\tBelkers are creatures from the Plane of Air. They are composed primarily
+    of smoke. Although undeniably evil, they are very reclusive and usually have no
+    interest in the affairs of others. A belker’s winged shape makes it look distinctly
+    demonic. It is about 7 feet long and weighs about 8 pounds.\n\n\n\tBelkers speak
+    Auran.\n\n\n"
+- name: bison
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 5d8+15
+  desc: "\n\tThese herd animals can be aggressive when protecting young and during
+    the mating season, but they generally prefer flight to fighting. A bison stands
+    more than 6 feet tall at the shoulder and is 9 to 12 feet long. It weigh 1,800
+    to 2,400 pounds. The bison’s statistics can be used for almost any large herd
+    animal.\n\n\n"
+- &1
+  name: Chromatic Dragon
+  type:
+  - Dragon
+  - Magical Creature
+  subtype:
+  - Reptilian
+  size:
+  - Huge
+  alignment:
+  - Chaotic
+  - Evil
+  attack: 14d10+34
+  hit_pts: 25d12+150
+  desc: |
+    The chromatic dragons are black, blue, green, red, and white; they are all evil and extremely fierce.
+- &1
+  name: Metallic Dragon
+  type:
+  - Dragon
+  - Magical Creature
+  subtype:
+  - Reptilian
+  size:
+  - Huge
+  alignment:
+  - Good
+  attack: 14d10+34
+  hit_pts: 25d12+150
+  desc: "The metallic dragons are brass, bronze, copper, gold, and silver; they are all good, usually noble, and highly respected by the wise. \n"
+- *1
+- name: ooze
+  type:
+  - Ooze
+  subtype: []
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+7
+  hit_pts: 10d10+60
+  desc: "\n\tOozes are amorphous creatures that live only to eat. They inhabit underground
+    areas throughout the world, scouring caverns, ruins, and dungeons in search of
+    organic matter—living or dead.\n\n\n"
+- name: 'blink dog '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 4d10
+  desc: "\n\tThe blink dog is an intelligent canine that has a limited teleportation
+    ability.\n\n\n\tBlink dogs have their own language, a mixture of barks, yaps,
+    whines, and growls that can transmit complex information.\n\n\n"
+- name: boar
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+12
+  desc: "\n\tThough not carnivores, these wild swine are bad-tempered and usually
+    charge anyone who disturbs them. A boar is covered in coarse, grayish-black fur.
+    Adult males are about 4 feet long and 3 feet high at the shoulder.\n\n\n"
+- name: 'bodak '
+  type:
+  - Undead
+  subtype:
+  - Extraplanar
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 9d12
+  desc: "\n\tBodaks are the undead remnants of humanoids who have been destroyed by
+    the touch of absolute evil.\n\n\n\tA bodak retains fleeting memories of its past
+    life and can speak Common (or some other humanoid language).\n\n\n"
+- name: 'bralani '
+  type:
+  - Outsider
+  subtype:
+  - Chaotic
+  - Extraplanar
+  - Good
+  size:
+  - Medium
+  alignment:
+  - Chaotic
+  - Good
+  attack: 1d20+6
+  hit_pts: 6d8+18
+  desc: "\n\tIn addition to their natural form, bralanis can assume the shape of a
+    whirlwind or zephyr of dust, snow, or sand.\n\n\n\tBralanis speak Celestial, Infernal,
+    and Draconic, but can communicate with almost any creature, thanks to their tongues
+    ability.\n\n\n"
+- name: 'bugbear '
+  type:
+  - Humanoid
+  subtype:
+  - Goblinoid
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+3
+  desc: "\n\tBugbears speak Goblin and Common.\n\n\n"
+- name: 'bulette '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+9
+  hit_pts: 9d10+45
+  desc: "\n\tAlso known as the landshark, the bulette is a terrifying predator that
+    lives only to eat.\n\n\n"
+- name: camel
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+6
+  desc: "\n\tCamels are known for their ability to travel long distances without food
+    or water.\n\n\n\tThe statistics presented here are for the dromedary, or one-humped
+    camel, which thrives in warm deserts. A dromedary stands about 7 feet tall at
+    the shoulder, with its hump rising 1 foot higher. The two-humped, or Bactrian,
+    camel is suited to cooler, rocky areas. It is stockier, slower (speed 40 feet),
+    and has a higher Constitution score (16).\n\n\nCarrying Capacity\n\n\tA light
+    load for a camel is up to 300 pounds; a medium load, 301-600 pounds; and a heavy
+    load, 601-900 pounds. A camel can drag 4,500 pounds.\n\n\n"
+- name: cat
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+0
+  hit_pts: '2'
+  desc: "\n\tThe statistics presented here describe a common housecat.\n\n\n"
+- name: 'nightmare '
+  type:
+  - Outsider
+  subtype:
+  - Evil
+  - Extraplanar
+  size:
+  - Large
+  alignment:
+  - Evil
+  attack: 1d20+6
+  hit_pts: 6d8+18
+  desc: "\n\tA nightmare is about the size of a light war horse.\n\n\n"
+- name: 'centaur '
+  type:
+  - Monstrous Humanoid
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 4d8+8
+  desc: "\n\tA centaur is as big as a heavy horse, but much taller and slightly heavier.
+    A centaur is about 7 feet tall and weighs about 2,100 pounds.\n\n\n\tCentaurs
+    speak Sylvan and Elven.\n\n\n"
+- name: 'chaos beast '
+  type:
+  - Outsider
+  subtype:
+  - Chaotic
+  - Extraplanar
+  size:
+  - Medium
+  alignment:
+  - Chaotic
+  attack: 1d20+8
+  hit_pts: 8d8+8
+  desc: "\n\tThe horrific creatures known as chaos beasts have mutable, ever-changing
+    forms. A chaos beast’s dimensions vary, but it always weighs about 200 pounds.\n\n\n\tChaos
+    beasts do not speak.\n\n\n"
+- name: cheetah
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+6
+  desc: "\n\tCheetahs are swift feline predators of the plains. A cheetah is 3 to
+    5 feet long and weighs 110 to 130 pounds.\n\n\n"
+- name: 'chimera '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+9
+  hit_pts: 9d10+27
+  desc: "\n\tA chimera is about 5 feet tall at the shoulder, nearly 10 feet long,
+    and weighs about 4,000 pounds. A chimera’s dragon head might be black, blue, green,
+    red, or white.\n\n\n\tChimeras can speak Draconic but seldom bother to do so,
+    except when toadying to more powerful creatures.\n\n\n"
+- name: 'choker '
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+3
+  desc: "\n\tThese vicious little predators lurk underground, grabbing whatever prey
+    happens by. Its hands and feet have spiny pads that help the choker grip almost
+    any surface. The creature weighs about 35 pounds.\n\n\n\tChokers speak Undercommon.\n\n\n"
+- name: 'chuul '
+  type:
+  - Aberration
+  subtype:
+  - Aquatic
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+8
+  hit_pts: 11d8+44
+  desc: "\n\tA horrible mix of crustacean, insect, and serpent, the chuul is an abomination
+    that lurks submerged or partially submerged, awaiting intelligent prey to devour.
+    Although amphibious, chuuls are not good swimmers and actually prefer to be on
+    land or in very shallow water when they attack. A chuul is about 8 feet long and
+    weighs 650 pounds.\n\n\n\tChuuls speak Common (or Undercommon, for the underground
+    variety).\n\n\n"
+- name: 'golem '
+  type:
+  - Construct
+  - Humanoid
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+8
+  hit_pts: 11d10+30
+  desc: "\n\tGolems are magically created automatons of great power. Constructing
+    one involves the employment of mighty magic and elemental forces.\n\n\n\tThe animating
+    force for a golem is a spirit from the Elemental Plane of Earth. The process of
+    creating the golem binds the unwilling spirit to the artificial body and subjects
+    it to the will of the golem’s creator.\n\n\n"
+- name: 'cloaker '
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 6d8+18
+  desc: "\n\tWhen resting or lying in wait, these creatures are almost impossible
+    to distinguish from common black cloaks (the cloaker’s ivory claws look very much
+    like bone clasps). Only when it unfurls does the horrific nature of the creature
+    become apparent.\n\n\n\tA cloaker has a wingspan of about 8 feet. It weighs about
+    100 pounds.\n\n\n\tCloakers speak Undercommon.\n\n\n"
+- name: giant
+  type:
+  - Giant
+  - Humanoid
+  subtype:
+  - Air
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+12
+  hit_pts: 17d8+102
+  desc: "\n\tAll giants speak Giant. Those with Intelligence scores of 10 or higher
+    also speak Common.\n\n\n"
+- name: 'cockatrice '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+5
+  hit_pts: 5d10
+  desc: "\n\tA male cockatrice has wattles and a comb, just like a rooster. Females,
+    much rarer than males, differ only in that they have no wattles or comb. A cockatrice
+    weighs about 25 pounds.\n\n\n"
+- name: 'couatl '
+  type:
+  - Outsider
+  subtype:
+  - Native
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+9
+  hit_pts: 9d8+18
+  desc: "\n\tA couatl is about 12 feet long, with a wingspan of about 15 feet. It
+    weighs about 1,800 pounds.\n\n\n\tCouatls speak Celestial, Common, and Draconic,
+    and also have the power of telepathy (see below).\n\n\n"
+- name: crocodile
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+9
+  desc: "\n\tCrocodiles are aggressive predators 11 to 12 feet long. They lie mostly
+    submerged in rivers or marshes, with only their eyes and nostrils showing, waiting
+    for prey to come within reach.\n\n\n"
+- name: 'hydra '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+5
+  hit_pts: 5d10+28
+  desc: "\n\tHydras are reptile-like monsters with multiple heads. A hydra is gray-brown
+    to dark brown, with a light yellow or tan underbelly. The eyes are amber and the
+    teeth are yellow-white. It is about 20 feet long and weighs about 4,000 pounds.
+    Hydras do not speak.\n\n\n"
+- name: naga
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 9d8+18
+  desc: "\n\tAll nagas have long, snakelike bodies covered with glistening scales,
+    and more or less human faces. They range in length from 10 to 20 feet and weigh
+    from 200 to 500 pounds. The eyes of a naga are bright and intelligent, burning
+    with an almost hypnotic inner light.\n\n\n"
+- name: 'darkmantle '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 1d10+1
+  desc: "\n\tThe darkmantle hangs from a ceiling by a muscular \"foot\" at the top
+    of its body. It can look like a stalactite, by holding its tentacles stiffly under
+    itself, or like a lump of rock, spreading its tentacles so the membrane between
+    them covers its body. Its shell and skin usually resemble limestone, but a darkmantle
+    can change its color to match almost any type of stony background.\n\n\n\tA darkmantle
+    is about 4 feet long from the tips of its tentacles to the top of its head. It
+    weighs about 30 pounds.\n\n\n"
+- name: 'dwarf '
+  type:
+  - Humanoid
+  subtype: []
+  size:
+  - Medium
+  alignment: 
+  - Lawful
+  - Good
+  attack: 1d20+1
+  hit_pts: 1d8+2
+  desc: "\n\tDwarves favor earth tones in their clothing and prefer simple and functional
+    garb. The skin can be very dark, but it is always some shade of tan or brown.
+    Hair color can be black, gray, or brown. Dwarves average 4 feet tall and weigh
+    as much as adult humans.\n\n\n\tDwarves speak Dwarven. Most who travel outside
+    dwarven lands (as traders, mercenaries, or adventurers) know the Common tongue,
+    while warriors in the dwarven cities usually learn Goblin to better interrogate
+    and spy on those evil denizens of the deep caves.\n\n\n\tMost dwarves encountered
+    outside their home are warriors.\n\n\n"
+- name: 'halfling '
+  type:
+  - Humanoid
+  subtype: []
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 1d8+1
+  desc: "\n\tHalflings stand about 3 feet tall and usually weigh between 30 and 35
+    pounds. They have brown or black eyes. Halfling men often have long sideburns,
+    but beards are rare among them and mustaches almost unseen. Halflings prefer simple,
+    comfortable, and practical clothes. Unlike members of most races, they prefer
+    actual comfort to shows of wealth. Halflings reach adulthood in their early twenties
+    and generally live into the middle of their second century. Halflings speak Halfling
+    and Common.\n\n\n\tMost halflings encountered outside their home are warriors;
+    the information in the statistics block is for one of 1st level.\n\n\n"
+- name: dinosaur
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 4d8+16
+  desc: "\n\tDinosaurs come in many sizes and shapes. Bigger varieties have drab coloration,
+    while smaller dinosaurs have more colorful markings. Most dinosaurs have a pebbly
+    skin texture.\n\n\n"
+- name: 'delver '
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+11
+  hit_pts: 15d8+78
+  desc: "\n\tA delver is about 15 feet long and 10 feet wide. It weighs about 6,000
+    pounds.\n\n\n\tDelvers speak Terran and Undercommon.\n\n\n"
+- name: derro
+  type:
+  - Monstrous Humanoid
+  subtype: []
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 3d8+3
+  desc: "\n\tDerro are afflicted by a form of racial madness, which most often manifests
+    as delusions of grandeur coupled with an overpowering urge to inflict torment
+    on other creatures. Derro are capable of holding their murderous impulses in check
+    for short periods of time in order to cooperate with creatures of other races,
+    but such arrangements rarely last more than a few weeks. Of course, no derro is
+    capable of recognizing that he is out of his mind.\n\n\n"
+- name: 'destrachan '
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 8d8+24
+  desc: "\n\tThe dungeon-dwelling destrachan looks like some bizarre, nonintelligent
+    beast, but it’s an incredibly evil and crafty sadist. A destrachan has a pair
+    of complex, three-part ears that it can adjust to be more or less sensitive to
+    various sounds. It is blind, yet hunts with a sense of hearing more precise than
+    most creatures’ sight.\n\n\n\tFrom its tubular mouth a destrachan emits carefully
+    focused harmonics, producing sonic energy so powerful it can shatter a stone wall.
+    So skilled is a destrachan at controlling the sounds it emits that it can choose
+    what type of material to affect with its attack.\n\n\n\tA destrachan is about
+    10 feet long from its mouth to the tip of the tail and weighs about 4,000 pounds.\n\n\n\tA
+    destrachan speaks no language but understands Common. If a destrachan must communicate,
+    it does so through action.\n\n\n"
+- name: 'devourer '
+  type:
+  - Undead
+  subtype:
+  - Extraplanar
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 12d12
+  desc: "\n\tDevourers lurk on the Ethereal Plane and the Astral Plane, stalking both
+    natives and travelers with equal sadistic glee.\n\n\n\tA devourer is about 9 feet
+    tall and weighs 500 pounds.\n\n\n\tDevourers speak Common.\n\n\n"
+- name: 'digester '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+8
+  hit_pts: 8d10+24
+  desc: "\n\tA digester stands about 5 feet tall and is 7 feet long from snout to
+    tail. It weighs about 350 pounds,\n\n\n"
+- name: dire ape
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 5d8+13
+  desc: "\n\tA dire ape stands about 9 feet tall and weighs from 800 to 1,200 pounds.\n\n\n"
+- name: dire badger
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+15
+  desc: "\n\tThese vicious creatures tolerate no intrusions. They cannot burrow into
+    solid rock, but can move through just about any material softer than that. A dire
+    badger usually leaves behind a usable tunnel 5 feet in diameter when burrowing
+    unless the material it’s moving through is very loose.\n\n\n\tA dire badger is
+    from 5 to 7 feet in length and can weigh up to 500 pounds.\n\n\n"
+- name: dire bat
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 4d8+12
+  desc: "\n\tA dire bat has a wingspan of 15 feet and weighs about 200 pounds.\n\n\n"
+- name: 'dire bear '
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+9
+  hit_pts: 12d8+51
+  desc: "\n\tThe omnivorous dire bear usually does not bother creatures that try to
+    avoid it, but will aggressively defend a kill or other source of food. It will
+    not hesitate to rip apart anything that might contain something edible.\n\n\n\tA
+    typical dire bear is 12 feet long and weighs as much as 8,000 pounds.\n\n\n"
+- name: dire boar
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+5
+  hit_pts: 7d8+21
+  desc: "\n\tDire boars are omnivorous and spend most of their time rooting around,
+    much as ordinary pigs do. They viciously attack anything that approaches them,
+    however.\n\n\n\tDire boars grow up to 12 feet long and weigh as much as 2,000
+    pounds.\n\n\n"
+- name: dire lion
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 8d8+24
+  desc: "\n\tDire lions are patient hunters, just like their smaller cousins, but
+    apt to take on bigger prey.\n\n\n\tDire lions grow to be up to 15 feet long and
+    weigh up to 3,500 pounds.\n\n\n"
+- name: dire rat
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+0
+  hit_pts: 1d8+1
+  desc: "\n\tDire rats are omnivorous scavengers, but will attack to defend their
+    nests and territories.\n\n\n\tA dire rat can grow to be up to 4 feet long and
+    weigh over 50 pounds.\n\n\n"
+- name: dire shark
+  type:
+  - Animal
+  subtype:
+  - Aquatic
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+13
+  hit_pts: 18d8+66
+  desc: "\n\tDire sharks attack anything they perceive to be edible, even larger creatures.\n\n\n\tThis
+    monstrous fish can grow to a length of 25 feet and weigh more than 20,000 pounds.\n\n\n"
+- name: dire tiger
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+12
+  hit_pts: 16d8+48
+  desc: "\n\tDire tigers prey on just about anything that moves. They will patiently
+    stalk a potential meal, striking whenever the creature lets down its guard.\n\n\n\tDire
+    tigers grow to be over 12 feet long and can weigh up to 6,000 pounds.\n\n\n"
+- name: dire weasel
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8
+  desc: "\n\tDire weasels grow to be up to 10 feet long and can reach a weight of
+    700 pounds.\n\n\n"
+- name: dire wolf
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 6d8+18
+  desc: "\n\tDire wolves are efficient pack hunters that will kill anything they can
+    catch.\n\n\n\tDire wolves are mottled gray or black, about 9 feet long and weighing
+    some 800 pounds.\n\n\n"
+- name: dire wolverine
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 5d8+23
+  desc: "\n\tDire wolverines grow to about 12 feet in length and can weigh as much
+    as 2,000 pounds.\n\n\n"
+- name: genie
+  type:
+  - Outsider
+  subtype:
+  - Air
+  - Extraplanar
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+7
+  hit_pts: 7d8+14
+  desc: "\n\tGenies are humanlike beings who dwell on the elemental planes. They are
+    famous for their strength, guile, and skill with illusion magic.\n\n\n"
+- name: dog, riding
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+4
+  desc: "\n\tThis category includes working breeds such as collies, huskies, and St.
+    Bernards.\n\n\nCarrying Capacity\n\n\tA light load for a riding dog is up to 100
+    pounds; a medium load, 101-200 pounds; and a heavy load, 201-300 pounds. A riding
+    dog can drag 1,500 pounds.\n\n\n"
+- name: dog
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+0
+  hit_pts: 1d8+2
+  desc: "\n\tThe statistics presented here describe a fairly small dog of about 20
+    to 50 pounds in weight. They also can be used for small wild canines such as coyotes,
+    jackals, and African wild dogs.\n\n\n"
+- name: donkey
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+2
+  desc: "\n\tThese long-eared, horselike creatures are surefooted and sturdy. The
+    statistics presented here could also describe burros.\n\n\nCarrying Capacity\n\n\tA
+    light load for a donkey is up to 50 pounds; a medium load, 51-100 pounds; and
+    a heavy load, 101-150 pounds. A donkey can drag 750 pounds.\n\n\n"
+- name: 'doppelganger '
+  type:
+  - Monstrous Humanoid
+  subtype:
+  - Shapechanger
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 4d8+4
+  desc: "\n\tDoppelgangers are strange beings that are able to take on the shapes
+    of those they encounter. In its natural form, the creature looks more or less
+    humanoid, but slender and frail, with gangly limbs and half-formed features. The
+    flesh is pale and hairless. Its large, bulging eyes are yellow with slitted pupils.
+    A doppelganger’s appearance is deceiving even when it’s in its true form. A doppelganger
+    is hardy, with a natural agility not in keeping with its frail appearance.\n\n\n\tDoppelgangers
+    make excellent use of their natural mimicry to stage ambushes, bait traps, and
+    infiltrate humanoid society. Although not usually evil, they are interested only
+    in themselves and regard all others as playthings to be manipulated and deceived.\n\n\n\tIn
+    its natural form a doppelganger is about 5&frac12; feet tall and weighs about
+    150 pounds.\n\n\n"
+- name: dragon turtle
+  type:
+  - Dragon
+  subtype:
+  - Aquatic
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+12
+  hit_pts: 12d12+60
+  desc: "\n\tIts rough, deep green shell is much the same color as the deep water
+    the monster favors, and the silver highlights that line the shell resemble light
+    dancing on open water. The turtle’s legs, tail, and head are a lighter green,
+    flecked with golden highlights. An adult dragon turtle can measure from 20 to
+    30 feet from snout to tail, with a shell from 15 to 25 feet in diameter, and can
+    weigh 8,000 to 32,000 pounds.\n\n\n\tDragon turtles speak Aquan, Draconic, and
+    Common.\n\n\n"
+- name: 'dragonne '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+9
+  hit_pts: 9d10+27
+  desc: "\n\tA dragonne possesses huge claws and fangs, and large eyes, usually the
+    color of its scales. A dragonne is about 12 feet long and weighs about 700 pounds.\n\n\n\tDragonnes
+    speak Draconic.\n\n\n"
+- name: 'drider '
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 6d8+18
+  desc: "\n\tDriders speak Elven, Common, and Undercommon.\n\n\n"
+- name: 'dryad '
+  type:
+  - Fey
+  - Humanoid
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 4d6
+  desc: "\n\tA dryad’s delicate features are much like a female elf’s, though her
+    flesh is like bark or fine wood, and her hair is like a canopy of leaves that
+    changes color with the seasons.\n\n\n\tAlthough they are generally solitary, up
+    to seven dryads have been encountered in one place on rare occasions.\n\n\n\tDryads
+    speak Common, Elven, and Sylvan.\n\n\n"
+- name: 'eagle, giant '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 4d10+4
+  desc: "\n\tA typical giant eagle stands about 10 feet tall, has a wingspan of up
+    to 20 feet, and resembles its smaller cousins in nearly every way except size.
+    It weighs about 500 pounds.\n\n\n\tGiant eagles speak Common and Auran.\n\n\n"
+- name: eagle
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+0
+  hit_pts: 1d8+1
+  desc: "\n\tThese birds of prey inhabit nearly every terrain and climate, though
+    they all prefer high, secluded nesting spots.\n\n\n\tA typical eagle is about
+    3 feet long and has a wingspan of about 7 feet. The statistics presented here
+    can describe any similar-sized, diurnal bird of prey.\n\n\n"
+- name: elephant
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+8
+  hit_pts: 11d8+55
+  desc: "\n\tMassive herbivores of tropical lands, elephants are unpredictable creatures
+    but nevertheless are sometimes used as mounts or beasts of burden.\n\n\n\tThis
+    entry describes an African elephant. Indian elephants are slightly smaller and
+    weaker (Strength 28), but more readily trained (Wisdom 15). These statistics can
+    also represent prehistoric creatures such as mammoths and mastodons.\n\n\n"
+- name: 'ethereal filcher '
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 5d8
+  desc: "\n\tEthereal filchers are bizarre-looking creatures with a penchant for snatching
+    trinkets from passersby. Their ability to move quickly between the Ethereal Plane
+    and the Material Plane makes them spectacular pickpockets.\n\n\n\tEthereal filchers
+    do not speak.\n\n\n"
+- name: 'ethereal marauder '
+  type:
+  - Magical Beast
+  subtype:
+  - Extraplanar
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 2d10
+  desc: "\n\tEthereal marauders live and hunt on the Ethereal Plane. Ethereal marauders’
+    coloration ranges from bright blue to deep violet. An ethereal marauder stands
+    about 4 feet tall, but its overall length is about 7 feet. It weighs about 200
+    pounds.\n\n\n\tEthereal marauders speak no known languages. Survivors of their
+    attacks on the Material Plane claim that they emit an eerie, high whine that varies
+    in pitch depending on the creature’s speed and health.\n\n\n"
+- name: 'ettercap '
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 5d8+5
+  desc: "\n\tAn ettercap is about 6 feet tall and weighs about 200 pounds.\n\n\n\tEttercaps
+    speak Common.\n\n\n"
+- name: 'ettin '
+  type:
+  - Giant
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+7
+  hit_pts: 10d8+20
+  desc: "\n\tEttins, or two-headed giants, are vicious and unpredictable hunters that
+    stalk the night.\n\n\n\tAn ettin never bathes if it can help it, which usually
+    leaves it so grimy and dirty its skin resembles thick, gray hide. Adult ettins
+    are about 13 feet tall and weigh 5,200 pounds. They live about 75 years.\n\n\n\tEttins
+    have no language of their own but speak a pidgin of Orc, Goblin, and Giant. Creatures
+    that can speak any of these languages must succeed on a DC 15 Intelligence check
+    to communicate with an ettin. Check once for each bit of information: If the other
+    creature speaks two of these languages, the DC is 10, and for someone who speaks
+    all three, the DC is 5.\n\n\n"
+- name: 'gnome '
+  type:
+  - Humanoid
+  subtype: []
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 1d8+2
+  desc: "\n\tGnomes stand 3 to 3&frac12; feet tall and weigh 40 to 45 pounds. Their
+    skin color ranges from dark tan to woody brown, their hair is fair, and their
+    eyes can be any shade of blue. Gnome males prefer short, carefully trimmed beards.
+    Gnomes generally wear leather or earth tones, though they decorate their clothes
+    with intricate stitching or fine jewelry. Gnomes reach adulthood at about age
+    40, and they live about 350 years, though some can live almost 500 years.\n\n\n\tGnomes
+    speak their own language, Gnome. Most gnomes who travel outside gnome lands (as
+    traders, tinkers, or adventurers) know Common, while warriors in gnome settlements
+    usually learn Goblin.\n\n\n\tMost gnomes encountered outside their home are warriors;
+    the information in the statistics block is for one of 1st level.\n\n\n"
+- name: 'formian '
+  type:
+  - Outsider
+  subtype:
+  - Lawful
+  - Extraplanar
+  size:
+  - Small
+  alignment:
+  - Lawful
+  attack: 1d20+1
+  hit_pts: 1d8+1
+  desc: "\n\tA formian resembles a cross between an ant and a centaur. All formians
+    are covered in a brownish-red carapace; size and appearance differs for each variety.\n\n\n"
+- name: 'frost worm '
+  type:
+  - Magical Beast
+  subtype:
+  - Cold
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+14
+  hit_pts: 14d10+70
+  desc: "\n\tA frost worn cannot burrow through stone, but can manage ice and frozen
+    earth. When moving through such hard materials it leaves behind a usable tunnel
+    about 5 feet in diameter.\n\n\n\tA frost worm is about 40 feet long, 5 feet in
+    diameter, and weighs about 8,000 pounds.\n\n\n"
+- name: 'fungus '
+  type:
+  - Plant
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+2
+  desc: "\n\tShriekers and violet fungi often work together to attract and kill prey.
+    When the shriekers’ hellish racket attracts a curious creature, the violet fungus
+    tries to kill it. Both creatures enjoy the fruits of a successful hunt.\n\n\nShrieker\n\n\tA
+    shrieker is a stationary fungus that emits a loud noise to attract prey or when
+    disturbed. Shriekers live in dark, subterranean places, often in the company of
+    violet fungi, whose poison they are immune to.\n\n\n\tShriekers come in of shades
+    of purple.\n\n\n"
+- name: 'gargoyle '
+  type:
+  - Monstrous Humanoid
+  subtype:
+  - Earth
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 4d8+19
+  desc: "\n\tGargoyles often appear to be winged stone statues, for they can perch
+    indefinitely without moving and use this disguise to surprise their foes. They
+    require no food, water, or air, but often eat their fallen foes out of fondness
+    for inflicting pain.\n\n\n\tGargoyles speak Common and Terran.\n\n\n"
+- name: 'ghaele '
+  type:
+  - Outsider
+  subtype:
+  - Chaotic
+  - Extraplanar
+  - Good
+  size:
+  - Medium
+  alignment:
+  - Chaotic
+  - Good
+  attack: 1d20+10
+  hit_pts: 10d8+20
+  desc: "\n\tA ghaele can take the form of an incorporeal globe of eldritch colors,
+    5 feet in diameter. A ghaele is about 6 feet tall and weighs about 170 pounds.\n\n\n\tGhaeles
+    speak Celestial, Infernal, and Draconic, but can communicate with almost any creature,
+    thanks to their tongues ability.\n\n\n"
+- name: 'ghoul '
+  type:
+  - Undead
+  subtype: []
+  size:
+  - Medium
+  alignment: 
+  - Evil
+  attack: 1d20+1
+  hit_pts: 2d12
+  desc: "\n\tGhouls speak the languages they spoke in life (usually Common).\n\n\n"
+- name: giant fire beetle
+  type:
+  - Vermin
+  subtype: []
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+0
+  hit_pts: 1d8
+  desc: "\n\tThese luminous nocturnal insects are prized by miners and adventurers.
+    They have two glands, one above each eye, that produce a red glow. The glands’
+    luminosity persists for 1d6 days after removal from the beetle, illuminating a
+    roughly circular area with a 10-foot radius. Giant fire beetles are about 2 feet
+    long.\n\n\nCelestial Giant Fire Beetle\n\n\tThese celestial creatures are commonly
+    summoned by the summon monster I spell.\n\n\n"
+- name: 'gibbering mouther '
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 4d8+24
+  desc: "\n\tA gibbering mouther is a horrible creature seemingly drawn from a lunatic’s
+    nightmares. Although not evil, it thirsts after bodily fluids and seems to prefer
+    the blood of intelligent creatures.\n\n\n\tA gibbering mouther is about 3 feet
+    across and 3 to 4 feet high. It weighs about 200 pounds.\n\n\n\tGibbering mouthers
+    can speak Common, but seldom say anything other than gibberish.\n\n\n"
+- name: 'girallon '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+7
+  hit_pts: 7d10+20
+  desc: "\n\tGirallons are savage, magical cousins of the gorilla. When moving on
+    the ground, a girallon walks on its legs and lower arms. An adult girallon is
+    about 8 feet tall, broad-chested, and covered in thick, pure white fur. It weighs
+    about 800 pounds.\n\n\n"
+- name: 'gnoll '
+  type:
+  - Humanoid
+  subtype: []
+  size:
+  - Medium
+  alignment:
+  - Evil
+  attack: 1d20+1
+  hit_pts: 2d8+2
+  desc: "\n\tGnolls are hyena-headed, evil humanoids that wander in loose tribes.
+    Most gnolls have dirty yellow or reddish-brown fur. A gnoll is a nocturnal carnivore,
+    preferring intelligent creatures for food because they scream more. A gnoll is
+    about 7&frac12; feet tall and weighs 300 pounds. Gnolls speak Gnoll.\n\n\n"
+- name: 'goblin '
+  type:
+  - Humanoid
+  subtype:
+  - Goblinoid
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 1d8+1
+  desc: "\n\tA goblin stands 3 to 3&frac12; feet tall and weigh 40 to 45 pounds. Its
+    eyes are usually dull and glazed, varying in color from red to yellow. A goblin’s
+    skin color ranges from yellow through any shade of orange to a deep red; usually
+    all members of a single tribe are about the same color. Goblins wear clothing
+    of dark leather, tending toward drab, soiled-looking colors. Goblins speak Goblin;
+    those with Intelligence scores of 12 or higher also speak Common.\n\n\n\tMost
+    goblins encountered outside their homes are warriors; the information in the statistics
+    block is for one of 1st level.\n\n\n"
+- name: 'gorgon '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+8
+  hit_pts: 8d10+40
+  desc: "\n\tA typical gorgon stands over 6 feet tall at the shoulder and measures
+    8 feet from snout to tail. It weighs about 4,000 pounds.\n\n\n\tGorgons are nothing
+    if not aggressive. They attack intruders on sight, attempting to trample, gore,
+    or petrify them. There is no way to calm these furious creatures, and they are
+    impossible to domesticate.\n\n\n"
+- name: 'gray render '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+10
+  hit_pts: 10d10+70
+  desc: "\n\tA gray render stands about 9 feet tall in spite of its hunched posture
+    and is about 4 feet wide. It weighs about 4,000 pounds.\n\n\n\tGray renders are
+    never found in groups. Each of these asexual creatures produces one offspring
+    and carries it for a time in a pouch, but thereafter the young render must fend
+    for itself.\n\n\n\tA unique quality of the gray render is its tendency to bond
+    with, protect, and provide for another creature (or group of creatures) native
+    to its surroundings. Whether accepted or not, the render always attempts to remain
+    fairly close, watching over its adopted charge(s) and daily bringing an offering
+    of meat. It never willingly harms adopted creatures and retreats if they attack
+    it.\n\n\n"
+- name: 'grick '
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8
+  desc: "\n\tAn adult grick is about 8 feet long from the tips of its tentacles to
+    the end of its body and weighs some 200 pounds. Its body coloration is uniformly
+    dark, with a pale underbelly.\n\n\n"
+- name: 'griffon '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+7
+  hit_pts: 7d10+21
+  desc: "\n\tGriffons are powerful, majestic creatures with the characteristics of
+    both lions and eagles. From nose to tail, an adult griffon can measure as much
+    as 8 feet. Neither males nor females are endowed with a mane. A pair of broad,
+    golden wings emerge from the creature’s back and span 25 feet or more. A griffon
+    weighs about 500 pounds.\n\n\n\tA griffon cannot speak, but understands Common.\n\n\n"
+- name: 'sprite '
+  type:
+  - Fey
+  - Humanoid
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+0
+  hit_pts: 1d6
+  desc: "\n\tSprites are reclusive fey. They go out of their way to fight evil and
+    ugliness and to protect their homelands.\n\n\n"
+- name: 'orc '
+  type:
+  - Humanoid
+  subtype: []
+  size:
+  - Medium
+  alignment:
+  - Chaotic
+  - Evil
+  attack: 1d20+1
+  hit_pts: 1d8+1
+  desc: "\n\tAn orc’s hair usually is black. It has lupine ears and reddish eyes.
+    Orcs prefer wearing vivid colors that many humans would consider unpleasant, such
+    as blood red, mustard yellow, yellow-green, and deep purple. Their equipment is
+    dirty and unkempt. An adult male orc is a little over 6 feet tall and weighs about
+    210 pounds.\n\n\n\tFemales are slightly smaller.\n\n\n\tThe language an orc speaks
+    varies slightly from tribe to tribe, but any orc is understandable by someone
+    else who speaks Orc. Some orcs know Goblin or Giant as well.\n\n\n\tMost orcs
+    encountered away from their homes are warriors; the information in the statistics
+    block is for one of 1st level.\n\n\n"
+- name: 'harpy '
+  type:
+  - Monstrous Humanoid
+  - Humanoid
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+7
+  hit_pts: 7d8
+  desc: "\n\tHarpies like to entrance hapless travelers with their magical songs and
+    lead them to unspeakable torments. Only when a harpy has finished playing with
+    its new \"toys\" will it release them from suffering by killing and consuming
+    them.\n\n\n"
+- name: hawk
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+0
+  hit_pts: 1d8
+  desc: "\n\tThese creatures are similar to eagles but slightly smaller: 1 to 2 feet
+    long, with wingspans of 6 feet or less.\n\n\n"
+- name: 'hell hound '
+  type:
+  - Outsider
+  subtype:
+  - Evil
+  - Extraplanar
+  - Fire
+  - Lawful
+  size:
+  - Medium
+  alignment:
+  - Evil
+  - Lawful
+  attack: 1d20+4
+  hit_pts: 4d8+4
+  desc: "\n\tA typical hell hound stands 4&frac12; feet high at the shoulder and weighs
+    120 pounds.\n\n\n\tHell hounds do not speak but understand Infernal.\n\n\n"
+- name: 'hippogriff '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 3d10+9
+  desc: "\n\tHippogriffs are aggressive flying creatures that combine features of
+    horses and giant eagles. Voracious omnivores, hippogriffs will hunt humanoids
+    as readily as any other meal. A typical hippogriff is 9 feet long, has a wingspan
+    of 20 feet, and weighs 1,000 pounds.\n\n\n"
+- name: 'hobgoblin '
+  type:
+  - Humanoid
+  subtype:
+  - Goblinoid
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 1d8+2
+  desc: "\n\tHobgoblins are larger cousins of goblins. Hobgoblins’ hair color ranges
+    from dark reddish-brown to dark gray. They have dark orange or red-orange skin.
+    Large males have blue or red noses. Hobgoblins’ eyes are yellowish or dark brown,
+    while their teeth are yellow. Their garments tend to be brightly colored, often
+    blood red with black-tinted leather. Their weaponry is kept polished and in good
+    repair. Hobgoblins speak Goblin and Common. Most hobgoblins encountered outside
+    their homes are warriors; the information in the statistics block is for one of
+    1st level.\n\n\n"
+- name: 'homunculus '
+  type:
+  - Construct
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d10
+  desc: "\n\tA homunculus is a miniature servant created by a wizard. These creatures
+    are weak combatants but make effective spies, messengers, and scouts. A homunculus’s
+    creator determines its precise features. Homunculi are little more than tools
+    designed to carry out assigned tasks. They are extensions of their creators, sharing
+    the same alignment and basic nature. A homunculus cannot speak, but the process
+    of creating one links it telepathically with its creator.\n\n\n\tIt knows what
+    its master knows and can convey to him or her everything it sees and hears, out
+    to a distance of 1,500 feet. A homunculus never travels beyond this range willingly,
+    though it can be removed forcibly. If this occurs, the creature does everything
+    in its power to regain contact with its master. An attack that destroys a homunculus
+    deals 2d10 points of damage to its master.\n\n\n\tIf the creature’s master is
+    slain, the homunculus also dies, and its body swiftly melts away into a pool of
+    ichor.\n\n\n"
+- name: horse
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+6
+  desc: "\n\tHorses are widely domesticated for riding and as beasts of burden.\n\n\n"
+- name: 'howler '
+  type:
+  - Outsider
+  subtype:
+  - Chaotic
+  - Evil
+  - Extraplanar
+  size:
+  - Large
+  alignment:
+  - Chaotic
+  - Evil
+  attack: 1d20+6
+  hit_pts: 6d8+12
+  desc: "\n\tHowlers live on planes where chaos and evil hold sway. A howler is about
+    8 feet long and weighs about 2,000 pounds. Although they are surprisingly intelligent,
+    howlers do not speak—they only howl. If there is a language within the howls,
+    as some have suggested, even spells cannot decipher it. Howlers understand Abyssal.\n\n\n"
+- name: hyena
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+4
+  desc: "\n\tHyenas are pack hunters infamous for their cunning and their unnerving
+    vocalizations. The statistics presented here are for a striped hyena, which is
+    about 3 feet long and weighs about 120 pounds.\n\n\n"
+- name: 'inevitable '
+  type:
+  - Construct
+  subtype:
+  - Extraplanar
+  - Lawful
+  size:
+  - Medium
+  alignment:
+  - Lawful
+  attack: 1d20+9
+  hit_pts: 13d10+20
+  desc: "\n\tInevitables are constructs whose sole aim is to enforce the natural laws
+    of the universe.\n\n\n\tEach type of inevitable is designed to find and punish
+    a particular kind of transgression, hunting down a person or group that has violated
+    a fundamental principle. When an inevitable is created, it receives its first
+    mission, then finds the transgressors and metes out appropriate punishment. The
+    sentence is usually death, although some inevitables insist on compensation to
+    the wronged party instead, using geas/quest and mark of justice to ensure compliance.
+    From its first step, an inevitable focuses totally on its target. It continues
+    its efforts no matter how cold the trail or hopeless the task. Inevitables are
+    single-minded in pursuit of their quarry, but they are under orders to leave innocents
+    alone. Accomplices to their prey are fair game, however, which sometimes creates
+    conflicts within their programming.\n\n\n\tInevitables gladly sacrifice themselves
+    to complete a mission, but they aren’t suicidal. Faced with impending defeat,
+    they are likely to withdraw and seek a way to even the odds. They are determined
+    but patient foes. They ally with others if that helps accomplish their mission,
+    but they have a hard time keeping allies for long.\n\n\n\tInevitables tend to
+    stick out in a crowd while they’re in observation mode, but they seem oblivious
+    to the attention. Their forms vary, but all inevitables are gold-and-silver clockwork
+    creatures, with gears and pistons where muscles would be on flesh-and-blood creatures.
+    Their eyes glow with a golden radiance.\n\n\n\tNote that unlike most constructs,
+    inevitables have an Intelligence score and can think, learn, and remember.\n\n\n\tInevitables
+    speak Abyssal, Celestial, Infernal, and the native language of their first target.\n\n\n"
+- name: 'invisible stalker '
+  type:
+  - Elemental
+  subtype:
+  - Air
+  - Extraplanar
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 8d8+16
+  desc: "\n\tInvisible stalkers are creatures native to the Elemental Plane of Air.
+    They sometimes serve wizards and sorcerers, who summon them to perform specific
+    tasks.\n\n\n\tA summoned invisible stalker undertakes whatever task the summoner
+    commands, even if the task sends it hundreds or thousands of miles away. The creature
+    follows a command until the task is completed and obeys only the summoner. However,
+    it resents protracted missions or complex tasks and seeks to pervert its instructions
+    accordingly.\n\n\n\tInvisible stalkers have an amorphous form. A see invisibility
+    spell shows only a dim outline of a cloud, while a true seeing spell reveals a
+    roiling cloud of vapor.\n\n\n\tThese creatures speak only Auran but can understand
+    Common.\n\n\n"
+- name: 'kobold '
+  type:
+  - Humanoid
+  subtype:
+  - Reptilian
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 1d8
+  desc: "\n\tKobolds are short, reptilian humanoids with cowardly and sadistic tendencies.\n\n\n\tA
+    kobold’s scaly skin ranges from dark rusty brown to a rusty black color. It has
+    glowing red eyes. Its tail is nonprehensile. Kobolds wear ragged clothing, favoring
+    red and orange. A kobold is 2 to 2&frac12; feet tall and weighs 35 to 45 pounds.
+    Kobolds speak Draconic with a voice that sounds like that of a yapping dog.\n\n\n"
+- name: 'kraken '
+  type:
+  - Magical Beast
+  subtype:
+  - Aquatic
+  size: []
+  alignment: []
+  attack: 1d20+20
+  hit_pts: 20d10+180
+  desc: "\n\tSix of the beast’s tentacles are shorter arms about 30 feet long; the
+    remaining two are nearly 60 feet long and covered with barbs. Its beaklike mouth
+    is located where the tentacles meet the lower portion of its body.\n\n\n\tKrakens
+    speak Common and Aquan.\n\n\n"
+- name: 'krenshar '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 2d10
+  desc: "\n\tThe krenshar is a strange, catlike carnivore with extremely flexible
+    skin on its head. A typical krenshar measures 4 or 5 feet in length with a long,
+    narrow head. It weighs about 175 pounds.\n\n\n"
+- name: 'lamia '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+9
+  hit_pts: 9d10+9
+  desc: "\n\tA typical lamia is about 8 feet long and weighs about 700 pounds.\n\n\n"
+- name: 'lammasu '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+7
+  hit_pts: 7d10+21
+  desc: "\n\tA typical lammasu is about 8 feet long and weighs about 500 pounds. Lammasus
+    speak Common, Draconic, and Celestial.\n\n\n"
+- name: leopard
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+6
+  desc: "\n\tThese jungle cats are about 4 feet long and weigh about 120 pounds. They
+    usually hunt at night. The statistics presented here can describe any feline of
+    similar size, such as jaguars, panthers, and mountain lions.\n\n\n"
+- name: 'lillend '
+  type:
+  - Outsider
+  subtype:
+  - Chaotic
+  - Extraplanar
+  - Good
+  size:
+  - Large
+  alignment:
+  - Chaotic
+  - Good
+  attack: 1d20+7
+  hit_pts: 7d8+14
+  desc: "\n\tA typical lillend’s coils are 20 feet long. The creature weighs about
+    3,800 pounds. A few lillends have male torsos.\n\n\n\tLillends speak Celestial,
+    Infernal, Abyssal, and Common.\n\n\n"
+- name: lion
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 5d8+10
+  desc: "\n\tThe statistics presented here describe a male African lion, which is
+    5 to 8 feet long and weighs 330 to 550 pounds. Females are slightly smaller but
+    use the same statistics.\n\n\n"
+- name: lizard, monitor
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+9
+  desc: "\n\tThis category includes fairly large, carnivorous lizards from 3 to 5
+    feet long.\n\n\n"
+- name: lizard
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+0
+  hit_pts: '2'
+  desc: "\n\tThe statistics presented here describe small, nonvenomous lizards of
+    perhaps a foot or two in length, such as an iguana.\n\n\n"
+- name: 'lizardfolk '
+  type:
+  - Humanoid
+  subtype:
+  - Reptilian
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+2
+  desc: "\n\tA lizardfolk is usually 6 to 7 feet tall with green, gray, or brown scales.
+    Its tail is used for balance and is 3 to 4 feet long. A lizardfolk can weigh from
+    200 to 250 pounds.\n\n\n\tLizardfolk speak Draconic.\n\n\n"
+- name: 'locathah '
+  type:
+  - Humanoid
+  subtype:
+  - Aquatic
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8
+  desc: "\n\tAlthough humanoid in shape, locathahs are clearly more fish than human.
+    The average locathah stands 5 feet tall and weighs 175 pounds. Females and males
+    look very much alike, although the former can be recognized by the two ochre stripes
+    marking their egg sacs.\n\n\n\tLocathahs speak Aquan.\n\n\n"
+- name: 'lycanthrope '
+  type:
+  - Humanoid
+  subtype:
+  - Shapechanger
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+5
+  hit_pts: '62'
+  desc: "\n\tLycanthropes are humanoids or giants who can transform themselves into
+    animals. In its natural form, a lycanthrope looks like any other members of its
+    kind, though natural lycanthropes and those who have been afflicted for a long
+    time tend to have or acquire features reminiscent of their animal forms. In animal
+    form, a lycanthrope resembles a powerful version of the normal animal, but on
+    close inspection, its eyes (which often glow red in the dark) show a faint spark
+    of unnatural intelligence.\n\n\n\tLycanthropy can be spread like a disease. Sometimes
+    a lycanthrope begins life as a normal humanoid or giant who subsequently contracts
+    lycanthropy after being wounded by a lycanthrope. Such a creature is called an
+    afflicted lycanthrope. Other lycanthropes are born as lycanthropes, and are known
+    as natural lycanthropes.\n\n\n"
+- name: 'magmin '
+  type:
+  - Elemental
+  subtype:
+  - Fire
+  - Extraplanar
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+2
+  desc: "\n\tMagmins are small, human-shaped beings from the Elemental Plane of Fire
+    that radiate intense heat and are wreathed in an aura of searing flames. A typical
+    magmin is 4 feet tall and weighs 400 pounds.\n\n\n\tMagmins speak Ignan.\n\n\n"
+- name: 'sahuagin '
+  type:
+  - Monstrous Humanoid
+  subtype:
+  - Aquatic
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 2d8+2
+  desc: "\n\tMost sahuagin feature green coloration, darker along the back and lighter
+    on the belly. Many have dark stripes, bands, or spots, but these tend to fade
+    with age. An adult male sahuagin stands roughly 6 feet tall and weighs about 200
+    pounds.\n\n\n\tSahuagin are the natural enemy of aquatic elves. The two cannot
+    coexist peacefully: Wars between them are prolonged, bloody affairs that sometimes
+    interfere with shipping and maritime trade. Sahuagin have an only slightly less
+    vehement hatred for tritons.\n\n\n\tSahuagin speak their own language, Sahuagin.
+    Thanks to their high Intelligence scores, most sahuagin also speak two bonus languages,
+    usually Common and Aquan.\n\n\n"
+- name: manta ray
+  type:
+  - Animal
+  subtype:
+  - Aquatic
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 4d8
+  desc: "\n\tThese fish are nonaggressive and generally avoid contact with other creatures.
+    They filter plankton and similar small organisms from the water through their
+    gaping, toothless maws.\n\n\n"
+- name: 'manticore '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 6d10+24
+  desc: "\n\tA typical manticore is about 10 feet long and weighs about 1,000 pounds.
+    Manticores speak Common.\n\n\n"
+- name: 'medusa '
+  type:
+  - Monstrous Humanoid
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 6d8+6
+  desc: "\n\tA medusa is indistinguishable from a normal human at distances greater
+    than 30 feet (or closer, if its face is concealed). The creature often wears garments
+    that enhance its body while hiding its face behind a hood or veil.\n\n\n\tA typical
+    medusa is 5 to 6 feet tall and about the same weight as a human.\n\n\n\tMedusas
+    speak Common.\n\n\n"
+- name: 'merfolk '
+  type:
+  - Humanoid
+  subtype:
+  - Aquatic
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 1d8+2
+  desc: "\n\tA merfolk is about 8 feet long from the top of the head to the end of
+    the tail, and weighs about 400 pounds.\n\n\n\tMerfolk speak Common and Aquan.\n\n\n\tMost
+    merfolk encountered outside their home are warriors; the information in the statistics
+    block is for one of 1st level.\n\n\n"
+- name: 'ogre '
+  type:
+  - Giant
+  - Humanoid
+  subtype: []
+  size:
+  - Large
+  alignment: 
+  - Evil
+  attack: 1d20+3
+  hit_pts: 4d8+11
+  desc: "\n\tAdult ogres stand 9 to 10 feet tall and weigh 600 to 650 pounds. Their
+    skin color ranges from dull yellow to dull brown. Their clothing consists of poorly
+    cured furs and hides, which add to their naturally repellent odor.\n\n\n\tOgres
+    speak Giant, and those specimens who boast Intelligence scores of at least 10
+    also speak Common.\n\n\n"
+- name: 'mimic '
+  type:
+  - Aberration
+  subtype:
+  - Shapechanger
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+5
+  hit_pts: 7d8+21
+  desc: "\n\tA mimic can have almost any dimensions, but usually is not more than
+    10 feet long. A typical mimic has a volume of 150 cubic feet (5 feet by 5 feet
+    by 6 feet) and weighs about 4,500 pounds.\n\n\n\tMimics speak Common.\n\n\n"
+- name: 'minotaur '
+  type:
+  - Monstrous Humanoid
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 6d8+12
+  desc: "\n\tA minotaur stands more than 7 feet tall and weighs about 700 pounds.\n\n\n\tMinotaurs
+    speak Giant.\n\n\n"
+- name: 'mohrg '
+  type:
+  - Undead
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+7
+  hit_pts: 14d12
+  desc: "\n\tMohrgs are the animated corpses of mass murderers or similar villains
+    who died without atoning for their crimes. Most mohrgs are 5 to 6 feet tall and
+    weigh about 120 pounds.\n\n\n"
+- name: monkey
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+0
+  hit_pts: 1d8
+  desc: "\n\tThe statistics presented here can describe any arboreal monkey that is
+    no bigger than a housecat, such as a colobus or capuchin.\n\n\n"
+- name: monstrous centipede
+  type:
+  - Vermin
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+0
+  hit_pts: 1d8
+  desc: "\n\tMonstrous centipedes tend to attack anything that resembles food, biting
+    with their jaws and injecting their poison.\n"
+- name: mule
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+9
+  desc: "\n\tMules are sterile crossbreeds of donkeys and horses. A mule is similar
+    to a light horse, but slightly stronger and more agile.\n\n\n"
+- name: 'mummy '
+  type:
+  - Undead
+  - Humanoid
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 8d12+3
+  desc: "\n\tMummies are preserved corpses animated through the auspices of dark desert
+    gods best forgotten.\n\n\n\tMost mummies are 5 to 6 feet tall and weigh about
+    120 pounds.\n\n\n\tMummies can speak Common, but seldom bother to do so.\n\n\n"
+- name: 'night hag '
+  type:
+  - Outsider
+  subtype:
+  - Evil
+  - Extraplanar
+  size:
+  - Medium
+  alignment:
+  - Evil
+  attack: 1d20+8
+  hit_pts: 8d8+32
+  desc: "\n\tA night hag is about the same height and weight as a female human.\n\n\n\tNight
+    hags speak Abyssal, Celestial, Common, and Infernal.\n\n\n"
+- name: nightshade
+  type:
+  - Undead
+  subtype:
+  - Extraplanar
+  size: []
+  alignment: []
+  attack: 1d20+12
+  hit_pts: 25d12+50
+  desc: "\n\tNightshades are powerful undead composed of equal parts darkness and
+    absolute evil.\n\n\n\tNightshades can read and understand all forms of communication;
+    however, they communicate with others by telepathy.\n\n\n"
+- name: 'nymph '
+  type:
+  - Fey
+  - Humanoid
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 6d6+6
+  desc: "\n\tA nymph is about the height and weight of a female elf.\n\n\n\tNymphs
+    speak Sylvan and Common.\n\n\n"
+- name: octopus, giant
+  type:
+  - Animal
+  subtype:
+  - Aquatic
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 8d8+11
+  desc: "\n\tThese creatures are aggressive and territorial hunters, with arms reaching
+    10 feet or more in length. Their tentacles are studded with barbs and sharp-edged
+    suckers.\n\n\n"
+- name: octopus
+  type:
+  - Animal
+  subtype:
+  - Aquatic
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8
+  desc: "\n\tThese bottom-dwelling sea creatures are dangerous only to their prey.
+    If disturbed, they usually try to escape.\n\n\n"
+- name: 'ogre mage '
+  type:
+  - Giant
+  - Humanoid
+  subtype: []
+  size:
+  - Large
+  alignment: 
+  - Evil
+  attack: 1d20+3
+  hit_pts: 5d8+15
+  desc: "\n\tThe ogre mage is a more intelligent and dangerous variety of its mundane
+    cousin.\n\n\n\tAn ogre mage stands about 10 feet tall and weighs up to 700 pounds.
+    Its skin varies in color from light green to light blue, and its hair is black
+    or very dark brown. Ogre mages favor loose, comfortable clothing and lightweight
+    armor.\n\n\n\tOgre mages speak Giant and Common.\n\n\n"
+- name: 'otyugh '
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 6d8+9
+  desc: "\n\tA typical otyugh has a body 8 feet in diameter and weighs about 500 pounds.\n\n\n\tOtyughs
+    speak Common.\n\n\n"
+- name: 'owl, giant '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 4d10+4
+  desc: "\n\tGiant owls are nocturnal birds of prey, feared for their ability to hunt
+    and attack in near silence. They are intelligent, and though naturally suspicious,
+    sometimes associate with good creatures. A typical giant owl stands about 9 feet
+    tall, has a wingspan of up to 20 feet, and resembles its smaller cousins in nearly
+    every way except size.\n\n\n\tGiant owls speak Common and Sylvan.\n\n\n"
+- name: owl
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+0
+  hit_pts: 1d8
+  desc: "\n\tThe statistics presented here describe nocturnal birds of prey from 1
+    to 2 feet long, with wingspans up to 6 feet. They combine both talons into a single
+    attack.\n\n\n"
+- name: 'owlbear '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+5
+  hit_pts: 5d10+25
+  desc: "\n\tAn owlbear’s coat ranges in color from brown-black to yellowish brown;
+    its beak is a dull ivory color. A full-grown male can stand as tall as 8 feet
+    and weigh up to 1,500 pounds. Adventurers who have survived encounters with the
+    creature often speak of the bestial madness they glimpsed in its red-rimmed eyes.\n\n\n"
+- name: 'pegasus '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment:
+  - Good
+  attack: 1d20+4
+  hit_pts: 4d10+12
+  desc: "\n\tThe pegasus is a magnificent winged horse that sometimes serves the cause
+    of good. Though highly prized as aerial steeds, pegasi are wild and shy creatures
+    not easily tamed.\n\n\n\tA typical pegasus stands 6 feet high at the shoulder,
+    weighs 1,500 pounds, and has a wingspan of 20 feet. Pegasi cannot speak, but they
+    understand Common.\n\n\n"
+- name: 'phantom fungus '
+  type:
+  - Plant
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+6
+  desc: "\n\tThis creature looks like a brown and greenish-brown mass with a cluster
+    of nodules atop the main mass, though it is visible only when dead. A cluster
+    of nodules atop the main mass serve as sensory organs. The creature feeds and
+    attacks with a gaping maw lined with rows of teeth. Four stumpy legs support the
+    creature and allow it to move about. This ambulatory fungus is naturally invisible,
+    making it a feared predator among subterranean inhabitants.\n\n\n"
+- name: 'phase spider '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+5
+  hit_pts: 5d10+15
+  desc: "\n\tPhase spiders are aggressive predators that can move quickly from the
+    Ethereal Plane to attack opponents on the Material Plane.\n\n\n\tA typical phase
+    spider’s body is 8 feet long. It weighs about 700 pounds.\n\n\n\tPhase spiders
+    cannot speak.\n\n\n"
+- name: 'phasm '
+  type:
+  - Aberration
+  subtype:
+  - Shapechanger
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+11
+  hit_pts: 15d8+30
+  desc: "\n\tA phasm is an amorphous creature that can assume the guise of almost
+    any other creature or object. A phasm in its natural form is about 5 feet in diameter
+    and 2 feet high at the center. Swirls of color indicate sensory organs. In this
+    form, a phasm slithers about like an ooze and can attack with a pseudopod. It
+    weighs about 400 pounds.\n\n\n\tPhasms can speak Common but prefer telepathic
+    communication.\n\n\n"
+- name: pony, war
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+4
+  desc: "\n\tWarponies are bred for strength and aggression, and are similar to light
+    warhorses.\n\n\n"
+- name: pony
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+2
+  desc: "\n\tThe statistics presented here describe a small horse, under 5 feet tall
+    at the shoulder. Ponies are otherwise similar to light horses and cannot fight
+    while carrying a rider.\n\n\n"
+- name: porpoise
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+2
+  desc: "\n\tPorpoises are mammals that tend to be playful, friendly, and helpful.
+    A typical porpoise is 4 to 6 feet long and weighs 110 to 160 pounds. The statistics
+    presented here can describe any small whale of similar size.\n\n\n"
+- name: 'pseudodragon '
+  type:
+  - Dragon
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 2d12+2
+  desc: "\n\tA pseudodragon has a body about 1 foot long, with a 2-foot tail. It weights
+    about 7 pounds.\n\n\n\tA pseudodragon can communicate telepathically and can also
+    vocalize animal noises.\n\n\n"
+- name: 'purple worm '
+  type:
+  - Magical Beast
+  subtype: []
+  size: []
+  alignment: []
+  attack: 1d20+16
+  hit_pts: 16d10+112
+  desc: "\n\tThe body of a mature purple worm is 5 feet in diameter and 80 feet long,
+    weighing about 40,000 pounds. The creature has a poisonous stinger in its tail.\n\n\n"
+- name: 'rakshasa '
+  type:
+  - Outsider
+  subtype:
+  - Native
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+7
+  hit_pts: 7d8+21
+  desc: "\n\tA closer look at a rakshasa reveals that the palms of its hands are where
+    the backs of the hands would be on a human.\n\n\n\tA rakshasa is about the same
+    height and weight as a human.\n\n\n\tRakshasas speak Common, Infernal, and Undercommon.\n\n\n"
+- name: 'rast '
+  type:
+  - Outsider
+  subtype:
+  - Extraplanar
+  - Fire
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 4d8+7
+  desc: "\n\tA rast has anywhere from ten to fifteen claws, though it can only use
+    four at once.\n\n\n\tA rast has a body about the size of a large dog’s, with a
+    head almost as large as the body. It weighs about 200 pounds.\n\n\n"
+- name: rat
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+0
+  hit_pts: '1'
+  desc: "\n\tThese omnivorous rodents thrive almost anywhere.\n\n\n"
+- name: raven
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+0
+  hit_pts: '1'
+  desc: "\n\tThese glossy black birds are about 2 feet long and have wingspans of
+    about 4 feet. They combine both claws into a single attack. The statistics presented
+    here can describe most nonpredatory birds of similar size.\n\n\nFiendish Raven\n\n\tThese
+    fiendish creatures are commonly summoned by the summon monster I spell.\n\n\n"
+- name: 'ravid '
+  type:
+  - Outsider
+  subtype:
+  - Extraplanar
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 3d8+3
+  desc: "\n\tRavids are creatures from the Positive Energy Plane. These bizarre entities
+    imbue creatures with energy by their touch and animate lifeless objects around
+    them. Ravids that make their way to the Material Plane wander about aimlessly,
+    followed by the objects to which they have given life.\n\n\n\tA ravid is about
+    7 feet long and weighs about 75 pounds.\n\n\n"
+- name: 'razor boar '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+15
+  hit_pts: 15d10+45
+  desc: "\n\tThis enormous boar has a black-bristled hide marked by hundreds of old
+    scars. Its eyes are wild and bloodshot, and its tusks are more than three feet
+    long, gleaming like polished ivory and sharper than many swords.\n\n\n"
+- name: 'remorhaz '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+7
+  hit_pts: 7d10+35
+  desc: "\n\tA remorhaz is whitish-blue in color but pulses with a reddish glow from
+    the heat its body produces. The creature is a little more than 20 feet long, with
+    a body about 5 feet wide. It weighs about 10,000 pounds.\n\n\n\tRemorhazes cannot
+    speak.\n\n\n"
+- name: rhinoceros
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 8d8+40
+  desc: "\n\tThe rhinoceros is infamous for its bad temper and willingness to charge
+    intruders.\n\n\n\tThe statistics presented here are based on the African black
+    rhino, which is 6 to 14 feet long, 3 to 6 feet high at the shoulder, and weighs
+    up to 6,000 pounds. These statistics can describe any herbivore of similar size
+    and similar natural weapons (antlers, horns, tusks, or the like).\n\n\n"
+- name: 'roc '
+  type:
+  - Animal
+  subtype: []
+  size: []
+  alignment: []
+  attack: 1d20+13
+  hit_pts: 18d8+126
+  desc: "\n\tA roc’s plumage is either dark brown or golden from head to tail. These
+    enormous creatures are 30 feet long from the beak to the base of the tail, with
+    wingspans as wide as 80 feet. A roc weighs about 8,000 pounds.\n\n\n"
+- name: 'roper '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+10
+  hit_pts: 10d10+30
+  desc: "\n\tA roper stands some 9 feet tall and tapers from 3 or 4 feet in diameter
+    at the base to 1 foot across at the top. It weighs 2,200 pounds. A roper’s coloration
+    and temperature change to match the features of the surrounding cave.\n\n\n\tRopers
+    speak Terran and Undercommon.\n\n\n"
+- name: 'rust monster '
+  type:
+  - Aberration
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 5d8+5
+  desc: "\n\tThe hide of these creatures varies in color from a yellowish tan underside
+    to a rust-red upper back. A rust monster’s prehensile antennae can rust metals
+    on contact.\n\n\n\tThe typical rust monster measures 5 feet long and 3 feet high,
+    weighing 200 pounds.\n\n\n"
+- name: 'salamander '
+  type:
+  - Outsider
+  subtype:
+  - Extraplanar
+  - Fire
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 4d8+8
+  desc: "\n\tSalamanders speak Ignan. Some average salamanders and all nobles also
+    speak Common.\n\n\n"
+- name: 'satyr '
+  type:
+  - Fey
+  - Humanoid
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 5d6+5
+  desc: "\n\tA satyr’s hair is red or chestnut brown, while its hooves and horns are
+    jet black. A satyr is about as tall and heavy as a half-elf.\n\n\n\tSatyrs speak
+    Sylvan, and most also speak Common.\n\n\n"
+- name: 'troll '
+  type:
+  - Giant
+  - Humanoid
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 6d8+36
+  desc: "\n\tTrolls walk upright but hunched forward with sagging shoulders. Their
+    gait is uneven, and when they run, their arms dangle and drag along the ground.
+    For all this seeming awkwardness, trolls are very agile.\n\n\n\tA typical adult
+    troll stands 9 feet tall and weighs 500 pounds. Females are slightly larger than
+    males. A troll’s rubbery hide is moss green, mottled green and gray, or putrid
+    gray. The hair is usually greenish black or iron gray.\n\n\n\tTrolls speak Giant.\n\n\n"
+- name: 'sea cat '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 6d10+18
+  desc: "\n\tA typical sea cat is 12 feet long and weighs 800 pounds.\n\n\n"
+- name: 'shadow mastiff '
+  type:
+  - Outsider
+  subtype:
+  - Extraplanar
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 4d8+12
+  desc: "\n\tThis creature has the body of a large dog, with a smooth black coat and
+    a mouth full of sharp teeth.\n\n\n\tA shadow mastiff is slightly more than 2 feet
+    high at the shoulder and weighs about 200 pounds.\n\n\n\tShadow mastiffs cannot
+    speak, but they understand Common.\n\n\n"
+- name: 'shadow '
+  type:
+  - Undead
+  subtype:
+  - Incorporeal
+  size:
+  - Medium
+  alignment: 
+  - Evil
+  attack: 1d20+1
+  hit_pts: 3d12
+  desc: "\n\tA shadow can be difficult to see in dark or gloomy areas but stands out
+    starkly in brightly illuminated places.\n\n\n\tA shadow is 5 to 6 feet tall and
+    is weightless. Shadows cannot speak intelligibly.\n\n\n"
+- name: 'shambling mound '
+  type:
+  - Plant
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 8d8+24
+  desc: "\n\tShambling mounds, also called shamblers, appear to be heaps of rotting
+    vegetation. They are actually intelligent, carnivorous plants.\n\n\n\tA shambler’s
+    brain and sensory organs are located in its upper body.\n\n\n\tA shambler’s body
+    has an 8-foot girth and is about 6 feet tall when the creature stands erect. It
+    weighs about 3,800 pounds.\n\n\n"
+- name: shark
+  type:
+  - Animal
+  subtype:
+  - Aquatic
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+3
+  desc: "\n\tThese carnivorous fish are aggressive and liable to make unprovoked attacks
+    against anything that approaches them. Smaller sharks are from 5 to 8 feet long
+    and not usually dangerous to creatures other than their prey. Large sharks can
+    reach around 15 feet in length and are a serious threat. Huge sharks are true
+    monsters, like great whites, that can exceed 20 feet in length.\n\n\n"
+- name: 'shield guardian '
+  type:
+  - Construct
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+11
+  hit_pts: 15d10+30
+  desc: "\n\tCreated by spellcasters to be bodyguards, shield guardians are constructs
+    that protect their masters with spells and stamina. When it is fashioned, a shield
+    guardian is keyed to a particular magical amulet. Henceforth, it regards the wearer
+    of that amulet to be its master, protecting and following that individual everywhere
+    (unless specifically commanded not to do so).\n\n\n\tA shield guardian obeys its
+    master’s verbal commands to the best of its ability, although it is not good for
+    much beyond combat and possibly simple manual labor. It can also be keyed to perform
+    specific tasks at specific times or when certain conditions are met. The wearer
+    of the amulet can call the shield guardian from any distance, and it will come
+    as long as it is on the same plane.\n\n\n\tA shield guardian is some 9 feet tall
+    and weighs more than 1,200 pounds.\n\n\n\tShield guardians cannot speak, but they
+    understand commands given in any language.\n\n\n"
+- name: 'shocker lizard '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 2d10+2
+  desc: "\n\tA shocker lizard has a pale gray or blue underside, shading to a darker
+    hue on its back. It has blue-black markings along its back and tail. A shocker
+    lizard is about 1 foot tall at the shoulder and weighs about 25 pounds.\n\n\n"
+- name: 'skum '
+  type:
+  - Aberration
+  subtype:
+  - Aquatic
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+2
+  desc: "\n\tA skum is about the same height and weight as a human. Skum speak Aquan.\n\n\n"
+- name: snake
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+6
+  desc: "\n\tSnakes usually are not aggressive and flee when confronted.\n"
+- name: 'spectre '
+  type:
+  - Undead
+  subtype:
+  - Incorporeal
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 7d12
+  desc: "\n\tA spectre looks much as it did in life and can be easily recognized by
+    those who knew the individual or have seen the individual’s face in a painting
+    or a drawing. In many cases, the evidence of a violent death is visible on its
+    body. A spectre is roughly human-sized and is weightless.\n\n\n"
+- name: 'spider eater '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 4d10+20
+  desc: "\n\tA spider eater is about 10 feet long and 4 feet high, and has a wingspan
+    of about 20 feet. It weighs about 4,000 pounds.\n\n\n"
+- name: squid, giant
+  type:
+  - Animal
+  subtype:
+  - Aquatic
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+9
+  hit_pts: 12d8+18
+  desc: "\n\tThese voracious creatures can have bodies more than 20 feet long and
+    attack almost anything they meet.\n\n\n"
+- name: squid
+  type:
+  - Animal
+  subtype:
+  - Aquatic
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8
+  desc: "\n\tThese free-swimming mollusks are fairly aggressive. They are more feared
+    than sharks in some locales.\n\n\n"
+- name: 'stirge '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 1d10
+  desc: "\n\tA stirge’s coloration ranges from rust-red to reddish-brown, with a dirty
+    yellow underside. The proboscis is pink at the tip, fading to gray at its base.\n\n\n\tA
+    stirge’s body is about 1 foot long, with a wingspan of about 2 feet. It weighs
+    about 1 pound.\n\n\n"
+- name: 'tarrasque '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Colossal
+  alignment: []
+  attack: 1d20+48
+  hit_pts: 48d10+594
+  desc: "\n\tThe tarrasque is 70 feet long and 50 feet tall, and it weighs about 130
+    tons.\n\n\n\tThe tarrasque cannot speak.\n\n\n"
+- name: 'tendriculos '
+  type:
+  - Plant
+  subtype: []
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 9d8+54
+  desc: "\n\tA tendriculos can rear up to a height of 15 feet. It weighs about 3,500
+    pounds.\n\n\n\tAnimals and other plant creatures are unnerved by the presence
+    of a tendriculos; they avoid it and any place it has been within the last 24 hours.\n\n\n"
+- name: 'thoqqua '
+  type:
+  - Elemental
+  subtype:
+  - Earth
+  - Extraplanar
+  - Fire
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+3
+  desc: "\n\tA thoqqua is about 1 foot in diameter and 4 to 5 feet long. It weighs
+    about 200 pounds.\n\n\n"
+- name: tiger
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 6d8+18
+  desc: "\n\tThese great cats stand more than 3 feet tall at the shoulder and are
+    about 9 feet long. They weigh from 400 to 600 pounds.\n\n\n"
+- name: 'titan '
+  type:
+  - Outsider
+  subtype:
+  - Chaotic
+  - Extraplanar
+  size:
+  - Huge
+  alignment:
+  - Chaotic
+  attack: 1d20+20
+  hit_pts: 20d8+280
+  desc: "\n\tA titan is about 25 feet tall and weighs about 14,000 pounds.\n\n\n\tTitans
+    speak Abyssal, Common, Celestial, Draconic, and Giant.\n\n\n"
+- name: 'tojanida '
+  type:
+  - Outsider
+  subtype:
+  - Extraplanar
+  - Water
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 3d8+6
+  desc: "\n\tA tojanida’s shell is blue-green in color. Inside the shell is a fleshy
+    body from which extend seven stalks. Four of these stalks have paddles for locomotion,
+    two are tipped with claws, and one bears the creature’s head. Eight vents in the
+    shell, four at each end, allow the tojanida to thrust its stalks out in whatever
+    configuration it finds convenient.\n\n\n\tA juvenile tojanida is up to 25 years
+    old. It has a shell about 3 feet long, and it weighs about 60 pounds. An adult
+    is aged 26 to 80. Its shell is about 6 feet long, and it weighs about 220 pounds.
+    An elder can reach 150 years of age. It has a shell about 9 feet long, and it
+    weighs about 500 pounds.\n\n\n\tTojanidas speak Aquan and can be loquacious, but
+    usually only on the subject of food.\n\n\n"
+- name: 'treant '
+  type:
+  - Plant
+  subtype: []
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+5
+  hit_pts: 7d8+35
+  desc: "\n\tA treant’s leaves are deep green in the spring and summer. In the fall
+    and winter the leaves change to yellow, orange, or red, but they rarely fall out.
+    A treant’s legs fit together when closed to look like the trunk of a tree, and
+    a motionless treant is nearly indistinguishable from a tree.\n\n\n\tA treant is
+    about 30 feet tall, with a \"trunk\" about 2 feet in diameter. It weighs about
+    4,500 pounds.\n\n\n\tTreants speak their own language, plus Common and Sylvan.
+    Most also can manage a smattering of just about all other humanoid tongues—at
+    least enough to say \"Get away from my trees!\"\n\n\n"
+- name: 'triton '
+  type:
+  - Outsider
+  subtype:
+  - Native
+  - Water
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 3d8+3
+  desc: "\n\tA triton has silvery skin that fades into silver-blue scales on the lower
+    half of its body. A triton’s hair is deep blue or blue-green.\n\n\n\tA triton
+    is about the same size and weight as a human. Tritons speak Common and Aquan.\n\n\n"
+- name: 'troglodyte '
+  type:
+  - Humanoid
+  subtype:
+  - Reptilian
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+4
+  desc: "\n\tA troglodyte stands about 5 feet tall and weighs about 150 pounds.\n\n\n\tTroglodytes
+    speak Draconic.\n\n\n"
+- name: 'unicorn '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Large
+  alignment:
+  - Good
+  attack: 1d20+4
+  hit_pts: 4d10+20
+  desc: "\n\tA unicorn has deep sea-blue, violet, brown, or fiery gold eyes. Males
+    sport a white beard.\n\n\n\tA typical adult unicorn grows to 8 feet in length,
+    stands 5 feet high at the shoulder, and weighs 1,200 pounds. Females are slightly
+    smaller and slimmer than males.\n\n\n\tUnicorns speak Sylvan and Common.\n\n\n"
+- name: 'vampire '
+  type:
+  - Undead
+  - Humanoid
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 4d12+3
+  desc: "\n\tVampires appear just as they did in life, although their features are
+    often hardened and feral, with the predatory look of wolves.\n"
+- name: 'vargouille '
+  type:
+  - Outsider
+  subtype:
+  - Evil
+  - Extraplanar
+  size:
+  - Small
+  alignment:
+  - Evil
+  attack: 1d20+1
+  hit_pts: 1d8+1
+  desc: "\n\tA vargouille is slightly larger than a human head, about 18 inches high,
+    with a wingspan of 4 feet. It weighs about 10 pounds.\n\n\n\tVargouilles speak
+    Infernal.\n\n\n"
+- name: weasel
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Tiny
+  alignment: []
+  attack: 1d20+0
+  hit_pts: '2'
+  desc: "\n\tThese little mammals are aggressive predators but usually confine themselves
+    to smaller prey. The statistics presented here can also apply to ferrets.\n\n\n"
+- name: 'wight '
+  type:
+  - Undead
+  subtype: []
+  size:
+  - Medium
+  alignment: 
+  - Evil
+  attack: 1d20+2
+  hit_pts: 4d12
+  desc: "\n\tA wight’s appearance is a weird and twisted reflection of the form it
+    had in life. A wight is about the height and weight of a human.\n\n\n\tWights
+    speak Common.\n\n\n"
+- name: !binary |-
+    d2lsbC1v4oCZLXdpc3Ag
+  type:
+  - Aberration
+  subtype:
+  - Air
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 9d8
+  desc: "\n\tWill-o’-wisps can be yellow, white, green, or blue. They are easily mistaken
+    for lanterns, especially in the foggy marshes and swamps where they reside. A
+    will-o’-wisp’s body is a globe of spongy material about 1 foot across and weighing
+    about 3 pounds, and its glowing body sheds as much light as a torch.\n\n\n\tWill-o’-wisps
+    speak Common and Auran. They have no vocal apparatus but can vibrate to create
+    a voice with a ghostly sound.\n\n\n"
+- name: 'winter wolf '
+  type:
+  - Magical Beast
+  subtype:
+  - Cold
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+6
+  hit_pts: 6d10+18
+  desc: "\n\tA winter wolf grows about 8 feet long and stands about 4&frac12; feet
+    at the shoulder. It weighs about 450 pounds.\n\n\n\tWinter wolves can speak Giant
+    and Common.\n\n\n"
+- name: wolf
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+1
+  hit_pts: 2d8+4
+  desc: "\n\tWolves are pack hunters known for their persistence and cunning.\n\n\n"
+- name: wolverine
+  type:
+  - Animal
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+2
+  hit_pts: 3d8+15
+  desc: "\n\tThese creatures are similar to badgers but are bigger, stronger, and
+    even more ferocious.\n\n\n"
+- name: 'worg '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+4
+  hit_pts: 4d10+8
+  desc: "\n\tA typical worg has gray or black fur, grows to 5 feet long and stands
+    3 feet tall at the shoulder. It weighs 300 pounds.\n\n\n\tMore intelligent than
+    their smaller cousins, worgs speak their own language. Some can also speak Common
+    and Goblin.\n\n\n"
+- name: 'wraith '
+  type:
+  - Undead
+  subtype:
+  - Incorporeal
+  size:
+  - Medium
+  alignment: 
+  - Evil
+  attack: 1d20+2
+  hit_pts: 5d12
+  desc: "\n\tWraiths are incorporeal creatures born of evil and darkness. In some
+    cases, the grim silhouette of a wraith might appear armored or outfitted with
+    weapons. This appearance does not affect the creature’s AC or combat abilities
+    but only reflects the shape it had in life.\n\n\n\tA wraith is about as tall as
+    a human, while a dread wraith is roughly the size of an ogre. Since both are incorporeal,
+    they are weightless.\n\n\n\tWraiths speak Common and Infernal.\n\n\n"
+- name: 'wyvern '
+  type:
+  - Dragon
+  subtype: []
+  size:
+  - Large
+  alignment: []
+  attack: 1d20+7
+  hit_pts: 7d12+14
+  desc: "\n\tA distant cousin to the true dragons, the wyvern is a huge flying lizard
+    with a poisonous stinger in its tail.\n\n\n\tA wyvern’s body is 15 feet long,
+    and dark brown to gray; half that length is tail. Its wingspan is about 20 feet.
+    A wyvern weighs about one ton.\n\n\n\tWyverns speak Draconic, but usually don’t
+    bother with anything more elaborate than a loud hiss or a deep-throated growl
+    much like that of a bull alligator.\n\n\n"
+- name: 'xill '
+  type:
+  - Outsider
+  subtype:
+  - Extraplanar
+  size:
+  - Medium
+  alignment: []
+  attack: 1d20+5
+  hit_pts: 5d8+10
+  desc: "\n\tA xill stands 4 to 5 feet tall and weighs about 100 pounds. Xills speak
+    Infernal.\n\n\n"
+- name: 'xorn '
+  type:
+  - Outsider
+  subtype:
+  - Extraplanar
+  - Earth
+  size:
+  - Small
+  alignment: []
+  attack: 1d20+3
+  hit_pts: 3d8+9
+  desc: "\n\tMinor xorns are about 3 feet tall and wide and weigh about 120 pounds.
+    Average xorns are about 5 feet tall and wide, weighing about 600 pounds. Elder
+    xorns are about 8 feet tall and wide and weigh about 9,000 pounds.\n\n\n\tXorns
+    speak Common and Terran.\n\n\n"
+- name: 'yeth hound '
+  type:
+  - Outsider
+  subtype:
+  - Extraplanar
+  - Evil
+  size:
+  - Medium
+  alignment:
+  - Evil
+  attack: 1d20+3
+  hit_pts: 3d8+6
+  desc: "\n\tA yeth hound stands 5 feet tall at the shoulder and weighs about 400
+    pounds.\n\n\n\tYeth hounds cannot speak, but understand Infernal.\n\n\n"
+- name: 'yrthak '
+  type:
+  - Magical Beast
+  subtype: []
+  size:
+  - Huge
+  alignment: []
+  attack: 1d20+12
+  hit_pts: 12d10+36
+  desc: "\n\tA yrthak is blind. It senses sound and movement by means of a special
+    organ on its long tongue. It emits powerfully focused beams of sound from the
+    protrusion on its head. The creature is a yellowish-green color, with the wings
+    and fin being more yellow and the head and body more green. The teeth are yellow.\n\n\n\tA
+    yrthak is about 20 feet long, with a wingspan of 40 feet. It weighs about 5,000
+    pounds.\n\n\n\tDespite their intelligence, yrthaks do not speak.\n\n\n"

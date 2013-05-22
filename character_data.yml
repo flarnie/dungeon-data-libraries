@@ -1,0 +1,448 @@
+---
+:data_type: character
+:playable_races:
+- human
+- dwarf
+- elf
+- gnome
+- half-elf
+- half-orc
+- halfling
+:skin_tones:
+- ivory
+- beige
+- ghost-white
+- snow
+- white
+- maroon
+- brown
+- sienna
+- saddle-brown
+- chocolate
+- sandybrown
+- rosybrown
+- tan
+- wheat
+- blanced-almond
+- salmon
+- dark-salmon
+- light-salmon
+- pink
+- light-pink
+- light-yellow
+:all_colors:
+- maroon
+- red
+- orange
+- yellow
+- olive
+- green
+- purple
+- fuchsia
+- lime
+- teal
+- aqua
+- blue
+- black
+- gray
+- silver
+- white
+- crimson
+- coral
+- gold
+- peach-puff
+- plum
+- amethyst
+- indigo
+- dark-slate-blue
+- midnight-blue
+- cornflower-blue
+- sky-blue
+- aquamarine
+- dark-sea-green
+- forest-green
+- pale-green
+- cornsilk
+- white
+- snow
+- ivory
+- slate-gray
+- light-gray
+:hair_lengths:
+- long
+- medium
+- short
+:hair_styles:
+- straight
+- wavy
+- curly
+- frizzy
+- glossy
+- tufted
+- braided
+- feathered
+- spiked
+- slick
+- flowing
+:non_playable_attrs:
+- - - long
+    - short
+    - sharp
+    - color
+    - quick
+    - razor
+  - - claws
+    - spikes
+    - fangs
+    - talons
+- - - downy
+    - coarse
+    - greasy
+    - tufts
+    - of
+    - braided
+    - matted
+    - glossy
+    - sleek
+    - long
+    - short
+    - color
+    - well-groomed
+    - ''
+  - - fur
+    - hair
+    - feathers
+- - - glistening
+    - bumpy
+    - sparkling
+    - rough
+    - smooth
+    - clean
+    - speckled
+    - spotted
+    - striped
+  - - skin
+:pos_adj:
+- adaptable
+- adventurous
+- affable
+- affectionate
+- agreeable
+- ambitious
+- amiable
+- amicable
+- amusing
+- brave
+- bright
+- broad-minded
+- calm
+- careful
+- charming
+- communicative
+- compassionate
+- conscientious
+- considerate
+- convivial
+- courageous
+- courteous
+- creative
+- decisive
+- determined
+- diligent
+- diplomatic
+- discreet
+- dynamic
+- easygoing
+- emotional
+- energetic
+- enthusiastic
+- extroverted
+- exuberant
+- fair-minded
+- faithful
+- fearless
+- forceful
+- frank
+- friendly
+- funny
+- generous
+- gentle
+- gregarious
+- hard-working
+- helpful
+- honest
+- humorous
+- imaginative
+- impartial
+- independent
+- intellectual
+- intelligent
+- intuitive
+- inventive
+- kind
+- loving
+- loyal
+- modest
+- neat
+- nice
+- optimistic
+- passionate
+- patient
+- persistent
+- pioneering
+- philosophical
+- placid
+- plucky
+- polite
+- powerful
+- practical
+- pro-active
+- quick-witted
+- quiet
+- rational
+- reliable
+- reserved
+- resourceful
+- romantic
+- self-confident
+- self-disciplined
+- sensible
+- sensitive
+- shy
+- sincere
+- sociable
+- straightforward
+- sympathetic
+- thoughtful
+- tidy
+- tough
+- unassuming
+- understanding
+- versatile
+- warmhearted
+- willing
+- witty
+:neg_adj:
+- aggressive
+- aloof
+- arrogant
+- belligerent
+- big-headed
+- boastful
+- bone-idle
+- boring
+- bossy
+- callous
+- cantankerous
+- careless
+- changeable
+- clinging
+- compulsive
+- conservative
+- cowardly
+- cruel
+- cunning
+- cynical
+- deceitful
+- detached
+- dishonest
+- dogmatic
+- domineering
+- finicky
+- flirtatious
+- foolish
+- foolhardy
+- fussy
+- greedy
+- grumpy
+- gullible
+- harsh
+- impatient
+- impolite
+- impulsive
+- inconsiderate
+- inconsistent
+- indecisive
+- indiscreet
+- inflexible
+- interfering
+- intolerant
+- introverted
+- irresponsible
+- jealous
+- lazy
+- Machiavellian
+- materialistic
+- mean
+- miserly
+- moody
+- narrow-minded
+- nasty
+- naughty
+- nervous
+- obsessive
+- obstinate
+- overcritical
+- overemotional
+- parsimonious
+- patronizing
+- perverse
+- pessimistic
+- pompous
+- possessive
+- pusillanimous
+- quarrelsome
+- quick-tempered
+- resentful
+- rude
+- ruthless
+- sarcastic
+- secretive
+- selfish
+- self-centred
+- self-indulgent
+- silly
+- sneaky
+- stingy
+- stubborn
+- stupid
+- superficial
+- tactless
+- timid
+- touchy
+- thoughtless
+- truculent
+- unkind
+- unpredictable
+- unreliable
+- untidy
+- untrustworthy
+- vague
+- vain
+- vengeful
+- vulgar
+- weak-willed
+:is_a:
+- escape-artist
+- alchemist
+- aristocrat
+- brigand
+- doctor
+- hunter
+- scholar
+- blacksmith
+- farmer
+- fisher
+- fletcher
+- gambler
+- pickpocket
+- tanner
+- locksmith
+- mason
+- merchant
+- minstrel
+- sailor
+- sentinel
+:knows_how_to:
+- appraise
+- balance
+- bluff
+- climb
+- spy
+- listen
+- ride
+- swim
+:studies:
+- History
+- Linguistics
+- Literature
+- Acting
+- Philosophy
+- Religion
+- Painting
+- Anthropology
+- Archaeology
+- Space
+- Science
+- Chemistry
+- Physics
+- Logic
+- Mathematics
+- Statistics
+- Systems
+- Agriculture
+- Architecture
+- Business
+- Divinity
+- Education
+- Engineering
+- Forestry
+- Healthcare
+- Journalism
+- Law
+- Administration
+- Arithmatic
+- Magic
+- Weaving
+- Dragons
+- Elves
+- Lore
+- Curses
+- Blessings
+:does_often:
+- writes
+- chants
+- hums
+- whistles
+- sings
+- paints
+- sails
+- reads
+- studies
+- encourages
+- listens
+- sleeps
+- teaches
+- protects
+- learns
+- fails
+- gambles
+- sneers
+- smirks
+- sighs
+- giggles
+- twitches
+- dances
+:fights_with:
+- glaives
+- lances
+- a longspear
+- ranseurs
+- a spiked chain
+- a whip
+- a quarterstaff
+- a sword
+- an axe
+- a dagger
+- a club
+- a shortspear
+- a spear
+- darts
+- javelins
+- a hammer
+- a trident
+- shuriken
+- a net
+- a crossbow
+- a sling
+- a shortbow
+- a longbow
+- their bare fists
+- magic
+- psi-powers
+- spells
+- kicking
+- boxing
+- a samurai-sword
+- trickery and poison
+- a flame-thrower
